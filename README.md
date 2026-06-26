@@ -1,7 +1,7 @@
-# Bina-Insight
+# Bina Insight
 ## Multi-Agent AI System for Data-Driven Entrepreneurship in Rural 
 ### Overview
-Bina-insight is a scalable multi-agent AI platform that empowers entrepreneurs, small business owners, and community development organizations to make data-driven decisions using local community feedback.
+Bina Insight is a scalable multi-agent AI platform that empowers entrepreneurs, small business owners, and community development organizations to make data-driven decisions using local community feedback.
 The platform collects public survey responses, automatically cleans and processes the data, applies Natural Language Processing (NLP) to identify recurring needs and service gaps, scores potential business opportunities based on community demand, and transforms the results into an intuitive Tableau dashboard.
 While this prototype has been developed with Al Qua’a, Al Ain as its pilot community, Bina-insight is designed as a scalable and adaptable platform that can be implemented across rural communities throughout the United Arab Emirates. By providing localized insights from any region, the platform enables entrepreneurs to identify real market opportunities, reduce uncertainty, and launch businesses that address genuine community needs rather than relying on assumptions.
 
@@ -15,7 +15,7 @@ As a result, they often struggle to answer questions such as:
 Without these insights, business decisions become based largely on guesswork, increasing the risk of unsuccessful ventures.
 
 ### Our Solution
-Bina-insight automates the entire analysis pipeline through specialized AI agents.
+Bina Insight automates the entire analysis pipeline through specialized AI agents.
 The system:
   1. Collects public survey responses from community members.
   2. Cleans and preprocesses the collected data.
@@ -73,8 +73,8 @@ The system:
 7. Government and economic development initiatives
 
 ### Expected Impact
-Bina-insight helps entrepreneurs make evidence-based decisions rather than relying on assumptions.
-By identifying genuine local needs, the platform encourages businesses that better serve the community, reduces investment risk, and supports sustainable economic growth in rural regions like Al Quaa.
+Bina Insight helps entrepreneurs make evidence-based decisions rather than relying on assumptions.
+By identifying genuine local needs, the platform encourages businesses that better serve the community, reduces investment risk, and supports sustainable economic growth in rural regions like Al Qua'a.
 
 ### Future Improvements
 1. Real-time survey integration
@@ -103,7 +103,7 @@ By identifying genuine local needs, the platform encourages businesses that bett
 └── README.md
 
 ### Unique Value Proposition
-Bina-insight is built for community-driven economic development and entrepreneurship support.
+Bina Insight is built for community-driven economic development and entrepreneurship support.
 1. Community intelligence vs. customer feedback: Aggregates regional community needs rather than analyzing feedback for individual businesses.
 2. Opportunity generation vs. sentiment analysis: Converts unmet needs into ranked, actionable business opportunities instead of just summarizing opinions.
 3. End-to-end multi-agent system: Uses a structured pipeline (data collection, cleaning, NLP analysis, opportunity scoring, and visualization) instead of single-step analytics.
