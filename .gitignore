@@ -1,9 +1,15 @@
 .venv/
+venv/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
 data/raw/
 data/cleaned/
 data/processed/
+data/projects/
+
+dashboard/tableau_exports/
+
 .DS_Store
 .idea/
