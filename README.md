@@ -1,1 +1,1 @@
-# bina-insight
+# Bina-insight
