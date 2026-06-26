@@ -1,4 +1,4 @@
-# Bina-insight
+# Bina-Insight
 ## Multi-Agent AI System for Data-Driven Entrepreneurship in Rural 
 ### Overview
 Bina-insight is a scalable multi-agent AI platform that empowers entrepreneurs, small business owners, and community development organizations to make data-driven decisions using local community feedback.
