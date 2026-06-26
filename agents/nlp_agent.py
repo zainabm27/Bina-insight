@@ -1,19 +1,3 @@
-"""
-Agent 3: NLP + Market Segmentation Agent
-----------------------------------------
-
-Role:
-1. Read cleaned community response data.
-2. Analyze opinion text using sentiment analysis.
-3. Extract keywords/topics from community responses.
-4. Analyze demand by service category.
-5. Analyze demand by region, occupation, age group, gender, and budget.
-6. Find the strongest customer segments for entrepreneurs to test first.
-
-BERTopic is optional.
-If BERTopic is not installed, the agent automatically uses TF-IDF.
-"""
-
 from pathlib import Path
 import json
 import pandas as pd
@@ -23,42 +7,32 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 
-# ============================================================
-# 1. Project paths
-# ============================================================
-
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 CLEANED_CSV = PROJECT_ROOT / "data" / "cleaned" / "responses_cleaned.csv"
 
 PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
+AGENT3_DIR = PROCESSED_DIR / "agent3_nlp"
 
-NLP_OUTPUT = PROCESSED_DIR / "nlp_insights.csv"
-KEYWORDS_OUTPUT = PROCESSED_DIR / "topic_keywords.csv"
+NLP_OUTPUT = AGENT3_DIR / "nlp_insights.csv"
+KEYWORDS_OUTPUT = AGENT3_DIR / "topic_keywords.csv"
 
-CATEGORY_METRICS_OUTPUT = PROCESSED_DIR / "category_metrics.csv"
-REGION_METRICS_OUTPUT = PROCESSED_DIR / "region_metrics.csv"
-OCCUPATION_METRICS_OUTPUT = PROCESSED_DIR / "occupation_metrics.csv"
-AGE_GROUP_METRICS_OUTPUT = PROCESSED_DIR / "age_group_metrics.csv"
-GENDER_METRICS_OUTPUT = PROCESSED_DIR / "gender_metrics.csv"
-BUDGET_METRICS_OUTPUT = PROCESSED_DIR / "budget_metrics.csv"
+CATEGORY_METRICS_OUTPUT = AGENT3_DIR / "category_metrics.csv"
+REGION_METRICS_OUTPUT = AGENT3_DIR / "region_metrics.csv"
+OCCUPATION_METRICS_OUTPUT = AGENT3_DIR / "occupation_metrics.csv"
+AGE_GROUP_METRICS_OUTPUT = AGENT3_DIR / "age_group_metrics.csv"
+GENDER_METRICS_OUTPUT = AGENT3_DIR / "gender_metrics.csv"
+BUDGET_METRICS_OUTPUT = AGENT3_DIR / "budget_metrics.csv"
 
-CUSTOMER_SEGMENTS_OUTPUT = PROCESSED_DIR / "customer_segments.csv"
-MARKET_SIGNALS_OUTPUT = PROCESSED_DIR / "market_signals.csv"
+CUSTOMER_SEGMENTS_OUTPUT = AGENT3_DIR / "customer_segments.csv"
+MARKET_SIGNALS_OUTPUT = AGENT3_DIR / "market_signals.csv"
 
-NLP_REPORT = PROCESSED_DIR / "nlp_report.json"
+NLP_REPORT = AGENT3_DIR / "nlp_report.json"
 
-PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+AGENT3_DIR.mkdir(parents=True, exist_ok=True)
 
-
-# ============================================================
-# 2. Helper functions
-# ============================================================
 
 def sentiment_label(score):
-    """
-    Convert VADER compound sentiment score into a simple label.
-    """
 
     if score >= 0.25:
         return "positive"
@@ -70,9 +44,6 @@ def sentiment_label(score):
 
 
 def get_top_value(series):
-    """
-    Return the most common value in a column.
-    """
 
     series = series.dropna()
 
@@ -88,11 +59,6 @@ def get_top_value(series):
 
 
 def safe_normalize(series):
-    """
-    Normalize numbers into a 0-1 range.
-
-    If max is 0, return 0 to avoid division errors.
-    """
 
     max_value = series.max()
 
@@ -103,9 +69,6 @@ def safe_normalize(series):
 
 
 def require_columns(df, required_columns):
-    """
-    Make sure the cleaned dataset has all columns needed by Agent 3.
-    """
 
     missing_columns = []
 
@@ -120,17 +83,7 @@ def require_columns(df, required_columns):
             + "\nRun cleaning_agent.py first and make sure it creates these columns."
         )
 
-
-# ============================================================
-# 3. Sentiment analysis
-# ============================================================
-
 def add_sentiment(df):
-    """
-    Analyze each response text and add:
-    - sentiment_score
-    - sentiment_label
-    """
 
     analyzer = SentimentIntensityAnalyzer()
 
@@ -146,19 +99,7 @@ def add_sentiment(df):
 
     return df
 
-
-# ============================================================
-# 4. Keyword extraction
-# ============================================================
-
 def extract_tfidf_keywords(df, top_n=8):
-    """
-    Extract top keywords for each service category using TF-IDF.
-
-    Example:
-    Delivery -> grocery, pharmacy, late, remote, expensive
-    Education -> tutoring, students, online, school
-    """
 
     rows = []
 
@@ -217,18 +158,9 @@ def extract_tfidf_keywords(df, top_n=8):
 
 
 def try_bertopic(df):
-    """
-    Try BERTopic topic modeling.
-
-    Important:
-    BERTopic is optional for this project.
-
-    If BERTopic is not installed or fails, Agent 3 does not crash.
-    It automatically falls back to TF-IDF.
-    """
 
     try:
-        from bertopic import BERTopic
+        from bertopic import BERTopic #optional
 
         texts = (
             df["analysis_text"]
@@ -238,8 +170,6 @@ def try_bertopic(df):
             .tolist()
         )
 
-        # Keep the same number of texts as the dataframe rows.
-        # This prevents row mismatch errors when assigning topics back to df.
         texts = [text if text else "empty response" for text in texts]
 
         meaningful_texts = [text for text in texts if text != "empty response"]
@@ -298,36 +228,11 @@ def try_bertopic(df):
 
         keyword_df = extract_tfidf_keywords(df)
 
-        # BERTopic is optional.
-        # If it is missing or fails, Agent 3 intentionally uses TF-IDF.
         method_used = "tfidf_fallback"
 
         return df, keyword_df, method_used
 
-
-# ============================================================
-# 5. General grouped metrics
-# ============================================================
-
 def build_group_metrics(df, group_columns):
-    """
-    Build useful business metrics for any grouping.
-
-    Examples:
-    - by service_category
-    - by region
-    - by occupation
-    - by age_group
-    - by gender
-    - by monthly_budget
-    - by service_category + region + occupation + age_group
-
-    This helps answer:
-    - Who has the highest need?
-    - Who is most willing to pay?
-    - Where is the pain strongest?
-    - Which segment is easiest to test first?
-    """
 
     metrics = (
         df.groupby(group_columns)
@@ -397,18 +302,7 @@ def build_group_metrics(df, group_columns):
 
     return metrics
 
-
-# ============================================================
-# 6. Business analysis tables
-# ============================================================
-
 def build_category_metrics(df):
-    """
-    Analyze each service category.
-
-    Example:
-    Delivery vs Education vs Transport vs Agriculture.
-    """
 
     metrics = build_group_metrics(df, ["service_category"])
 
@@ -420,14 +314,6 @@ def build_category_metrics(df):
 
 
 def build_region_metrics(df):
-    """
-    Analyze each region.
-
-    This answers:
-    - Which region has the strongest need?
-    - Which region has the highest willingness to pay?
-    - Which region should the entrepreneur test in first?
-    """
 
     metrics = build_group_metrics(df, ["region"])
 
@@ -439,14 +325,6 @@ def build_region_metrics(df):
 
 
 def build_occupation_metrics(df):
-    """
-    Analyze each occupation.
-
-    This answers:
-    - Which occupation is most affected?
-    - Which occupation is most willing to pay?
-    - Which occupation should the business target first?
-    """
 
     metrics = build_group_metrics(df, ["occupation"])
 
@@ -458,14 +336,6 @@ def build_occupation_metrics(df):
 
 
 def build_age_group_metrics(df):
-    """
-    Analyze each age group.
-
-    This answers:
-    - Which age group has the strongest need?
-    - Which age group is most likely to pay?
-    - Which age group may adopt the solution?
-    """
 
     metrics = build_group_metrics(df, ["age_group"])
 
@@ -477,11 +347,6 @@ def build_age_group_metrics(df):
 
 
 def build_gender_metrics(df):
-    """
-    Analyze responses by gender.
-
-    This is useful for checking whether demand differs across gender groups.
-    """
 
     metrics = build_group_metrics(df, ["gender"])
 
@@ -493,14 +358,6 @@ def build_gender_metrics(df):
 
 
 def build_budget_metrics(df):
-    """
-    Analyze budget groups.
-
-    This answers:
-    - Which budget group has the most demand?
-    - Are higher-budget groups also more urgent?
-    - Is there real payment readiness?
-    """
 
     metrics = build_group_metrics(df, ["monthly_budget"])
 
@@ -512,18 +369,6 @@ def build_budget_metrics(df):
 
 
 def build_customer_segments(df):
-    """
-    Build customer segments.
-
-    A segment is:
-    service category + region + occupation + age group
-
-    Example:
-    Delivery + Hatta + Shop owner + 35-44
-
-    This helps the entrepreneur choose who to interview,
-    test with, and sell to first.
-    """
 
     segments = build_group_metrics(
         df,
@@ -555,16 +400,6 @@ def build_market_signals(
     gender_metrics,
     budget_metrics
 ):
-    """
-    Create a small summary table for dashboards and Agent 4.
-
-    This does not make the final business decision.
-    It gives signals that Agent 4 can later use for:
-    - feasibility
-    - scalability
-    - testability
-    - opportunity ranking
-    """
 
     rows = []
 
@@ -624,10 +459,6 @@ def build_market_signals(
 
     return pd.DataFrame(rows)
 
-
-# ============================================================
-# 7. Main function
-# ============================================================
 
 def main():
     if not CLEANED_CSV.exists():
