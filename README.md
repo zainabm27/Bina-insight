@@ -83,41 +83,23 @@ By identifying genuine local needs, the platform encourages businesses that bett
 
 ### Repository Structure
 ├── data/
-
-│   ├── raw_surveys/
-
-│   └── processed_data/
-
+│    ├── raw_surveys/
+│    └── processed_data/
 │
-
 ├── agents/
-
-│   ├── data_collection.py
-
-│   ├── data_cleaning.py
-
-│   ├── nlp_analysis.py
-
-│   ├── opportunity_scoring.py
-
-│   └── dashboard_export.py
-
+│    ├── data_collection.py
+│    ├── data_cleaning.py
+│    ├── nlp_analysis.py
+│    ├── opportunity_scoring.py
+│    └── dashboard_export.py
 │
-
 ├── dashboard/
-
-│   └── Tableau Dashboard
-
+│  └── Tableau Dashboard
 │
-
 ├── notebooks/
-
 │
-
 ├── requirements.txt
-
 │
-
 └── README.md
 
 ### Unique Value Proposition
