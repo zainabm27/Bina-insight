@@ -110,7 +110,7 @@ Bina-insight is built for community-driven economic development and entrepreneur
 4. Actionable outputs: Produces business opportunity scores and recommendations, not just dashboards or reports.
 5. Accessible and scalable design: Built for entrepreneurs, municipalities, and rural communities, and adaptable across different regions in the UAE.
 
-### Note: This project is a prototype and can be further developed and expanded with additional data sources, advanced AI models, and real-world deployment integrations.
+#### Note: This project is a prototype and can be further developed and expanded with additional data sources, advanced AI models, and real-world deployment integrations.
 
 
 
