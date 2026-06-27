@@ -1,7 +1,12 @@
-signal_type,signal_name,score,meaning
-top_service_category,Rural Transport,83.15,Service category with strongest market signal.
-top_region,Ghayathi,82.77,Region with strongest demand and test potential.
-top_occupation,farmer,85.94,Occupation group most likely to be a strong customer segment.
-top_age_group,18-24,87.46,Age group with strongest demand and payment readiness.
-top_gender,male,83.53,Gender group with strongest market signal.
-top_budget_group,100+ AED,84.85,Budget group with strongest demand and payment-readiness signal.
+signal_type,signal_name,value,share,meaning
+category_demand,Rural Transport,65,0.4333,Share of responses mentioning this service category
+category_demand,Connectivity,32,0.2133,Share of responses mentioning this service category
+category_demand,Mobile Healthcare,31,0.2067,Share of responses mentioning this service category
+category_demand,Employment,22,0.1467,Share of responses mentioning this service category
+regional_demand,Al Madam,30,0.2,Share of responses from this region
+regional_demand,Al Sila,25,0.1667,Share of responses from this region
+regional_demand,Masafi,24,0.16,Share of responses from this region
+regional_demand,Delma Island,20,0.1333,Share of responses from this region
+regional_demand,Ghayathi,20,0.1333,Share of responses from this region
+regional_demand,Hatta,19,0.1267,Share of responses from this region
+regional_demand,Liwa,12,0.08,Share of responses from this region

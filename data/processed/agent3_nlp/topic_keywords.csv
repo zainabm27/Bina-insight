@@ -1,5 +1,31 @@
-service_category,method,topic_id,keywords
-Connectivity,tfidf,,"internet, upgrade, upgrade internet, reliable, poor internet, internet upgrade, poor, internet internet"
-Employment,tfidf,,"job, opportunities, job opportunities, opportunities needed, platform, platform local, opportunities job, local job"
-Mobile Healthcare,tfidf,,"healthcare, telemedicine healthcare, services far, telemedicine, services, limited healthcare, healthcare telemedicine, limited"
-Rural Transport,tfidf,,"transport, delivery, grocery delivery, grocery, need better, service, public transport, public"
+service_category,keyword,count
+Connectivity,internet,96
+Connectivity,poor,32
+Connectivity,upgrade,32
+Connectivity,access,32
+Connectivity,more,32
+Connectivity,reliable,32
+Employment,job,66
+Employment,opportunities,44
+Employment,few,22
+Employment,platform,22
+Employment,more,22
+Employment,local,22
+Employment,needed,22
+Mobile Healthcare,healthcare,62
+Mobile Healthcare,limited,31
+Mobile Healthcare,telemedicine,31
+Mobile Healthcare,services,31
+Mobile Healthcare,too,31
+Mobile Healthcare,far,31
+Mobile Healthcare,away,31
+Rural Transport,transport,78
+Rural Transport,delivery,78
+Rural Transport,grocery,52
+Rural Transport,public,39
+Rural Transport,limited,39
+Rural Transport,bus,39
+Rural Transport,better,39
+Rural Transport,options,39
+Rural Transport,slow,26
+Rural Transport,faster,26

@@ -1,116 +1,917 @@
-# Bina Insight
-## Multi-Agent AI System for Data-Driven Entrepreneurship in Rural 
-### Overview
-Bina Insight is a scalable multi-agent AI platform that empowers entrepreneurs, small business owners, and community development organizations to make data-driven decisions using local community feedback.
-The platform collects public survey responses, automatically cleans and processes the data, applies Natural Language Processing (NLP) to identify recurring needs and service gaps, scores potential business opportunities based on community demand, and transforms the results into an intuitive Tableau dashboard.
-While this prototype has been developed with Al Qua’a, Al Ain as its pilot community, Bina-insight is designed as a scalable and adaptable platform that can be implemented across rural communities throughout the United Arab Emirates. By providing localized insights from any region, the platform enables entrepreneurs to identify real market opportunities, reduce uncertainty, and launch businesses that address genuine community needs rather than relying on assumptions.
+# 🌙 Bina Insight
 
-### Problem Statement
-Many entrepreneurs in rural communities lack access to reliable local market data.
-As a result, they often struggle to answer questions such as:
-  1. What products are people asking for?
-  2. Which services are missing?
-  3. What community problems occur repeatedly?
-  4. Which business ideas have the highest local demand?
-Without these insights, business decisions become based largely on guesswork, increasing the risk of unsuccessful ventures.
+**Bina Insight** is an AI-powered rural market intelligence prototype for entrepreneurs in rural UAE communities such as **Al Qua'a, Al Ain**.
 
-### Our Solution
-Bina Insight automates the entire analysis pipeline through specialized AI agents.
-The system:
-  1. Collects public survey responses from community members.
-  2. Cleans and preprocesses the collected data.
-  3. Uses NLP techniques to identify recurring needs, complaints, and service gaps.
-  4. Scores potential business opportunities based on demand, frequency, and community impact.
-  5. Visualizes the findings in an easy-to-understand Tableau dashboard for entrepreneurs and decision-makers.
+It helps local entrepreneurs decide what to build using evidence instead of guesswork. The system collects community demand data, cleans it, analyzes opinions with multilingual NLP, converts the results into business metrics, and displays recommendations in an interactive bilingual dashboard.
 
-### Multi-Agent Workflow
-#### Agent 1 — Data Collection
-  Collects survey responses from residents.
-  Stores raw community feedback.
-#### Agent 2 — Data Cleaning
-  Removes duplicate entries.
-  Corrects formatting issues.
-  Handles missing or inconsistent data.
-##### Agent 3 — NLP Analysis
-  Extracts keywords and recurring themes.
-  Categorizes complaints and suggestions.
-  Identifies unmet community needs.
-#### Agent 4 — Opportunity Scoring
-  Ranks business ideas based on:
-    Demand frequency
-    Community impact
-    Market opportunity
-    Feasibility
-#### Agent 5 — Dashboard Generation
-  Exports processed data.
-  Generates Tableau-ready datasets.
-  Displays trends, rankings, and community insights through interactive dashboards.
+---
 
-### Features
-1. Multi-agent AI architecture
-2. Automated survey processing
-3. NLP-based need identification
-4. Business opportunity scoring
-5. Interactive Tableau dashboard
-6. Community-driven decision support
-7. Designed for rural UAE communities
+## 1. Problem
 
-### Technology Stack
-1. Python
-2. Natural Language Processing (NLP)
-3. Pandas
-4. Tableau
-5. AI Agent Framework (prototype)
-6. CSV/Survey Data Processing
+Entrepreneurs in rural communities often make business decisions with very little local data.
 
-### Target Users
-1. Local entrepreneurs
-2. Small business owners
-3. Family businesses
-4. Youth interested in starting businesses
-5. Community development teams
-6. Rural innovation programs
-7. Government and economic development initiatives
+They may not know:
 
-### Expected Impact
-Bina Insight helps entrepreneurs make evidence-based decisions rather than relying on assumptions.
-By identifying genuine local needs, the platform encourages businesses that better serve the community, reduces investment risk, and supports sustainable economic growth in rural regions like Al Qua'a.
+- What services people actually need
+- Which problems happen most often
+- Which customer groups are most affected
+- Whether people have enough budget for a solution
+- Whether an idea is feasible, scalable, and testable
 
-### Future Improvements
-1. Real-time survey integration
-2. Social media sentiment analysis
-3. Recommendation engine for business startup ideas
+This means many small businesses start by guessing.
 
-### Repository Structure
-├── data/
-│    ├── raw_surveys/
-│    └── processed_data/
+Bina Insight reduces that uncertainty by turning community survey data into clear business intelligence.
+
+---
+
+## 2. Target Users
+
+Bina Insight is primarily designed for **local entrepreneurs and small business owners** deciding what to build, sell, or improve in a rural UAE community.
+
+Secondary users include:
+
+- Farm owners
+- Home-based sellers
+- Youth entrepreneurs
+- Community volunteers
+- Rural development teams
+- Local decision-makers
+
+The main example community is **Al Qua'a**, a rural area near Al Ain known for camel farming families, remote service needs, and strong stargazing tourism potential.
+
+---
+
+## 3. Solution Overview
+
+Bina Insight uses a **five-stage AI pipeline**.
+
+Each agent is an independent Python module with a single responsibility, defined inputs, and defined outputs. This makes the system explainable for judges and easy to extend after the hackathon.
+
+```text
+Community CSV / Excel Upload
+        ↓
+Agent 1: Collector
+        ↓
+Agent 2: Cleaning
+        ↓
+Agent 3: Multilingual NLP
+        ↓
+Agent 4: Trend + Business Intelligence
+        ↓
+Agent 5: Dashboard Export
+        ↓
+Bilingual Streamlit Dashboard
+```
+
+The dashboard answers the main entrepreneur question:
+
+> **What should I build?**
+
+It provides:
+
+- Top business opportunity
+- Feasibility score
+- Scalability score
+- Testability score
+- Demand by service category
+- Demand by region
+- Customer segments to test first
+- Business opportunity matrix
+- Arabic / English interface
+
+---
+
+## 4. Main Features
+
+### AI Pipeline
+
+| Stage | File | Purpose |
+|---|---|---|
+| Agent 1 | `agents/collector_agent.py` | Collects uploaded CSV/Excel data or generates demo data |
+| Agent 2 | `agents/cleaning_agent.py` | Cleans, standardizes, and prepares the data |
+| Agent 3 | `agents/nlp_agent.py` | Runs multilingual sentiment analysis and topic/keyword extraction |
+| Agent 4 | `agents/trend_agent.py` | Converts analysis into business metrics and recommendations |
+| Agent 5 | `agents/dashboard_agent.py` | Exports clean files for dashboard and Tableau-style BI use |
+| Dashboard | `dashboard/dashboard_app.py` | Shows insights in an interactive web app |
+
+---
+
+## 5. AI and Analysis Methods
+
+Bina Insight is not only a dashboard. The AI layer includes:
+
+### Multilingual Transformer Sentiment Analysis
+
+The submitted NLP agent uses the full multilingual transformer model:
+
+```text
+cardiffnlp/twitter-xlm-roberta-base-sentiment
+```
+
+This is an XLM-RoBERTa multilingual sentiment model that can handle English, Arabic, and mixed-language survey responses better than English-only tools.
+
+The current `agents/nlp_agent.py` attempts to load this model by default. It only uses its simple local fallback if the transformer cannot load or fails on a specific row. The `FAST_MODE` variable may appear in `.env.example` as a reserved prototype flag, but the current submitted NLP agent does **not** use it to skip the transformer.
+
+### Topic and Keyword Extraction
+
+The NLP agent supports:
+
+- BERTopic for topic modeling when available
+- TF-IDF keyword extraction as a fallback
+- Category-level and segment-level market metrics
+
+### Business Intelligence Scoring
+
+The trend agent calculates:
+
+- Need score
+- Payment readiness
+- Feasibility score
+- Scalability score
+- Testability score
+- Overall business opportunity score
+
+### Recommendation Generation
+
+The system generates business recommendations using a built-in Al Qua'a-specific recommendation engine. This produces stable, consistent results without external API costs or dependencies.
+
+Optionally, Claude can generate contextual AI-written recommendations when `USE_CLAUDE=true` and a valid `ANTHROPIC_API_KEY` is configured.
+
+In the dashboard, the recommendation source may appear as:
+
+```text
+Built-in recommendation engine
+```
+
+or, when a Claude API key is configured:
+
+```text
+Generated by Claude API
+```
+
+---
+
+## 6. Example Business Opportunities
+
+The prototype can identify and rank opportunities such as:
+
+- Mobile camel veterinary booking
+- Livestock medicine delivery
+- Stargazing tourism packages
+- Marketplace for camel milk, dates, and local products
+- Farm equipment rental and maintenance
+- Rural transport to Al Ain
+- Mobile healthcare visits
+- Education and tutoring services
+
+---
+
+## 7. Project Structure
+
+```text
+rural-market-intelligence/
 │
 ├── agents/
-│    ├── data_collection.py
-│    ├── data_cleaning.py
-│    ├── nlp_analysis.py
-│    ├── opportunity_scoring.py
-│    └── dashboard_export.py
+│   ├── __init__.py
+│   ├── collector_agent.py
+│   ├── cleaning_agent.py
+│   ├── nlp_agent.py
+│   ├── nlp_analyzer_agent.py      # compatibility wrapper for older imports
+│   ├── trend_agent.py
+│   └── dashboard_agent.py
 │
 ├── dashboard/
-│  └── Tableau Dashboard
+│   ├── dashboard_app.py
+│   └── tableau_exports/
+│       ├── dashboard_layout_guide.md
+│       ├── dashboard_report.json
+│       ├── kpi_cards.csv
+│       ├── main_tableau_export.csv
+│       ├── opportunity_scores.csv
+│       ├── regional_needs.csv
+│       ├── targeting_summary.csv
+│       └── top_customer_segments.csv
+│
+├── data/
+│   ├── raw/
+│   │   ├── responses_raw.csv
+│   │   └── collection_metadata.json
+│   │
+│   ├── cleaned/
+│   │   ├── responses_cleaned.csv
+│   │   ├── cleaning_report.json
+│   │   └── categories/
+│   │
+│   ├── processed/
+│   │   ├── agent3_nlp/
+│   │   ├── agent4_business/
+│   │   └── tableau/
+│   │
+│   ├── dashboard_uploads/
+│   └── uploaded_files/
 │
 ├── notebooks/
+│   └── 01_data_collection.ipynb
 │
+├── presentation/
+│
+│
+├── .env.example
+├── .gitignore
+├── README.md
 ├── requirements.txt
-│
-└── README.md
+└── run_pipeline.py
+```
 
-### Unique Value Proposition
-Bina Insight is built for community-driven economic development and entrepreneurship support.
-1. Community intelligence vs. customer feedback: Aggregates regional community needs rather than analyzing feedback for individual businesses.
-2. Opportunity generation vs. sentiment analysis: Converts unmet needs into ranked, actionable business opportunities instead of just summarizing opinions.
-3. End-to-end multi-agent system: Uses a structured pipeline (data collection, cleaning, NLP analysis, opportunity scoring, and visualization) instead of single-step analytics.
-4. Actionable outputs: Produces business opportunity scores and recommendations, not just dashboards or reports.
-5. Accessible and scalable design: Built for entrepreneurs, municipalities, and rural communities, and adaptable across different regions in the UAE.
+Run the dashboard with:
 
-#### Note: This project is a prototype and can be further developed and expanded with additional data sources, advanced AI models, and real-world deployment integrations.
+```powershell
+streamlit run dashboard/dashboard_app.py
+```
+
+Note: `agents/nlp_analyzer_agent.py` is kept as a small compatibility wrapper for older file names/imports. The main NLP implementation is `agents/nlp_agent.py`.
+
+---
+
+## 8. Data Schema
+
+The project uses this reduced and consistent schema:
+
+```text
+response_id
+age_group
+gender
+region
+occupation
+source
+main_problem
+needed_service
+service_category
+importance_level
+frequency_of_problem
+preferred_solution_type
+monthly_budget
+opinion_text
+date_collected
+```
+
+### Minimum Required Columns for Uploaded Files
+
+If you upload a CSV or Excel file through the dashboard, it must include at least:
+
+```text
+region
+main_problem
+needed_service
+service_category
+opinion_text
+```
+
+The collector agent can fill some optional fields automatically.
+
+---
+
+## 9. Example Column Values
+
+### gender
+
+```text
+male
+female
+prefer not to say
+```
+
+### region
+
+Example rural UAE regions:
+
+```text
+Al Qua'a
+Ghayathi
+Liwa
+Hatta
+Masafi
+Al Madam
+Al Sila
+Delma Island
+Al Ain outskirts
+```
+
+### source
+
+```text
+volunteer
+survey
+government information
+other
+uploaded_file
+```
+
+### monthly_budget
+
+```text
+0-50 AED
+51-100 AED
+101-250 AED
+251-500 AED
+501-1000 AED
+1000+ AED
+```
+
+### service_category
+
+Examples:
+
+```text
+Veterinary & Camel Care
+Tourism & Stargazing
+Market Access
+Farm Operations
+Rural Transport
+Mobile Healthcare
+Education & Tutoring
+Utilities & Maintenance
+```
+
+These are the main categories generated by the demo collector scenarios. The dashboard translation layer can display additional categories if they appear in an uploaded CSV, but they are not part of the default demo generator unless added to `SERVICE_SCENARIOS` in `agents/collector_agent.py`.
+
+---
+
+## 10. Setup Instructions
+
+### Step 1: Clone or Open the Project
+
+Open a terminal in the project root folder.
+
+Example:
+
+```powershell
+cd rural-market-intelligence
+```
+
+### Step 2: Create a Virtual Environment
+
+```powershell
+python -m venv .venv
+```
+
+Activate it:
+
+```powershell
+.\.venv\Scripts\activate
+```
+
+On macOS/Linux:
+
+```bash
+source .venv/bin/activate
+```
+
+### Step 3: Install Requirements
+
+```powershell
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+### Step 4: Create Environment File
+
+Copy `.env.example` into `.env`:
+
+```powershell
+copy .env.example .env
+```
+
+On macOS/Linux:
+
+```bash
+cp .env.example .env
+```
+
+The project can run without an external API key.
+
+A typical `.env` can look like:
+
+```env
+PROJECT_NAME=Bina Insight
+RAW_DATA_PATH=data/raw/responses_raw.csv
+CLEANED_DATA_PATH=data/cleaned/responses_cleaned.csv
+PROCESSED_DATA_DIR=data/processed
+
+# Optional Claude API support
+USE_CLAUDE=false
+ANTHROPIC_API_KEY=
+CLAUDE_MODEL=claude-sonnet-4-6
+
+# Reserved prototype flag.
+# In the current submitted code, nlp_agent.py still runs the full XLM-RoBERTa model by default.
+FAST_MODE=true
+```
+
+Do not commit `.env` to GitHub. `.env.example` is safe to commit because it contains placeholders and configuration names, not private secrets.
+
+---
+
+## 11. Running the Project
+
+### Run Full Demo Pipeline
+
+```powershell
+python run_pipeline.py --demo
+```
+
+This generates demo data and runs all agents.
+
+### Run Dashboard
+
+```powershell
+streamlit run dashboard/dashboard_app.py
+```
+
+Then open the local URL shown in the terminal, usually:
+
+```text
+http://localhost:8501
+```
+
+---
+
+## 12. Uploading a CSV or Excel File
+
+The dashboard includes an upload section.
+
+When a user uploads a file, the app automatically runs:
+
+```text
+collector_agent.py
+cleaning_agent.py
+nlp_agent.py
+trend_agent.py
+dashboard_agent.py
+```
+
+Then the dashboard refreshes with new results.
+
+### Upload Flow
+
+```text
+CSV / Excel uploaded
+        ↓
+Saved to data/dashboard_uploads/
+        ↓
+Collector standardizes it
+        ↓
+Raw data saved to data/raw/responses_raw.csv
+        ↓
+Cleaning agent prepares clean data
+        ↓
+NLP agent analyzes text
+        ↓
+Trend agent creates business scores
+        ↓
+Dashboard agent exports BI files
+        ↓
+Dashboard updates
+```
+
+---
+
+## 13. Dashboard Sections
+
+The Streamlit dashboard includes:
+
+### Landing Page
+
+A bilingual introduction for Bina Insight.
+
+### Upload Section
+
+Allows CSV or Excel upload.
+
+### What Should I Build?
+
+Shows the strongest opportunity immediately.
+
+### KPI Overview
+
+Shows:
+
+- Responses analyzed
+- Regions covered
+- Service categories
+- Average budget
+
+### AI Recommendation Cards
+
+Shows the top opportunities with:
+
+- Opportunity score
+- Feasibility
+- Scalability
+- Testability
+- Suggested business idea
+- Best pilot segment
+- Recommendation source
+
+### Charts
+
+Includes:
+
+- Opportunity ranking
+- Demand by service category
+- Demand by region and category
+- Business opportunity matrix
+
+### Business Opportunity Matrix
+
+This is the main decision-making chart.
+
+It compares:
+
+```text
+x-axis = feasibility
+y-axis = scalability
+bubble size = opportunity score
+color = service category
+```
+
+It also divides opportunities into decision zones:
+
+- High priority
+- Ready to scale
+- Needs development
+- Needs review
+
+Arabic equivalents are shown when Arabic mode is selected.
+
+### Tables
+
+The dashboard shows clean simplified tables instead of raw technical column names.
+
+---
+
+## 14. Arabic / English Support
+
+The dashboard supports:
+
+```text
+English
+العربية
+```
+
+Arabic mode translates:
+
+- Dashboard headings
+- Filters
+- Region names
+- Service categories
+- Recommendation labels
+- Priority labels
+- Source labels
+- Table column names
+- Business idea fallback text
+
+Raw uploaded survey responses are displayed as collected.
+
+```
+```
+
+For the hackathon version, this can be used to store local project exports without building a backend or API gateway.
+
+### Why No API Gateway Yet?
+
+An API gateway is useful when a project has multiple backend services such as:
+
+```text
+auth-service
+user-service
+project-service
+agent-service
+dashboard-service
+```
+
+This prototype currently works as:
+
+```text
+Streamlit app
+↓
+Python agents
+↓
+CSV / JSON outputs
+```
+
+So an API gateway is not needed for the hackathon version.
+
+---
+
+## 15. Optional External AI API
+
+By default, Bina Insight uses a built-in recommendation engine with community-specific business ideas pre-written for each service category in Al Qua'a. This keeps the demo stable and cost-free.
+
+If you want Claude-generated recommendations, add your API key to `.env`.
+
+When the API key is configured, the Trend / Business Intelligence Agent can send summarized metrics to Claude, such as:
+
+- Service category
+- Need score
+- Average monthly budget
+- Top occupation
+- Preferred solution type
+- Best pilot region
+
+It does not need to send the full CSV row by row.
+
+### Configure Claude API
+
+Create `.env` and add:
+
+```env
+USE_CLAUDE=true
+ANTHROPIC_API_KEY=your_key_here
+CLAUDE_MODEL=claude-sonnet-4-6
+```
+
+For the default free and stable demo, keep:
+
+```env
+USE_CLAUDE=false
+ANTHROPIC_API_KEY=
+```
+
+Then rerun:
+
+```powershell
+python agents\trend_agent.py
+streamlit run dashboard/dashboard_app.py
+```
+
+Expected recommendation source:
+
+```text
+Generated by Claude API
+```
+
+If no key is set, the dashboard will show:
+
+```text
+Built-in recommendation engine
+```
+
+---
+
+## 16. Running Individual Agents
+
+### Agent 1: Collector
+
+Generate demo data:
+
+```powershell
+python agents\collector_agent.py --demo
+```
+
+Use uploaded file:
+
+```powershell
+python agents\collector_agent.py --input path\to\file.csv
+```
+
+### Agent 2: Cleaning
+
+```powershell
+python agents\cleaning_agent.py
+```
+
+Outputs:
+
+```text
+data/cleaned/responses_cleaned.csv
+data/cleaned/cleaning_report.json
+data/cleaned/categories/
+```
+
+### Agent 3: NLP
+
+```powershell
+python agents\nlp_agent.py
+```
+
+Outputs:
+
+```text
+data/processed/agent3_nlp/nlp_insights.csv
+data/processed/agent3_nlp/category_metrics.csv
+data/processed/agent3_nlp/region_metrics.csv
+data/processed/agent3_nlp/customer_segments.csv
+```
+
+### Agent 4: Trend / BI
+
+```powershell
+python agents\trend_agent.py
+```
+
+Outputs:
+
+```text
+data/processed/agent4_business/business_recommendations.csv
+data/processed/agent4_business/region_needs.csv
+data/processed/agent4_business/segment_recommendations.csv
+data/processed/tableau/tableau_ready_export.csv
+```
+
+### Agent 5: Dashboard Export
+
+```powershell
+python agents\dashboard_agent.py
+```
+
+Outputs:
+
+```text
+dashboard/tableau_exports/
+```
+
+---
+
+## 17. Files That Should Not Be Committed
+
+Make sure `.gitignore` includes:
+
+```gitignore
+.env
+.venv/
+__pycache__/
+*.pyc
+data/dashboard_uploads/
+data/uploaded_files/
+```
+
+For the hackathon version, commit small demo outputs so judges can run the dashboard immediately with:
+
+```powershell
+streamlit run dashboard/dashboard_app.py
+```
+
+That means it is acceptable to commit demo files such as:
+
+```text
+data/raw/responses_raw.csv
+data/cleaned/responses_cleaned.csv
+data/processed/agent3_nlp/*.csv
+data/processed/agent4_business/*.csv
+data/processed/tableau/tableau_ready_export.csv
+dashboard/tableau_exports/*.csv
+```
+
+Do not commit private real survey data.
+
+---
+
+## 18. Troubleshooting
+
+### Problem: `No module named transformers`
+
+Install:
+
+```powershell
+python -m pip install transformers torch sentencepiece
+```
+
+Then rerun:
+
+```powershell
+python run_pipeline.py --demo
+```
+
+### Problem: Hugging Face model download is slow
+
+The first run may take time because the multilingual model downloads.
+
+After the first successful download, the model is cached locally.
+
+The current submitted `nlp_agent.py` uses the full XLM-RoBERTa model by default. If `.env.example` contains `FAST_MODE=true`, treat it as a reserved prototype setting unless the NLP agent is later changed to explicitly read and use it.
+
+### Problem: Streamlit shows blank or only Deploy/settings
+
+Check that `dashboard/dashboard_app.py` is not empty.
+
+Run:
+
+```powershell
+Get-Content dashboard\dashboard_app.py -TotalCount 20
+```
+
+Then restart:
+
+```powershell
+streamlit run dashboard/dashboard_app.py
+```
+
+### Problem: Dashboard still shows old data
+
+Clear Streamlit cache:
+
+```powershell
+streamlit cache clear
+```
+
+Then rerun:
+
+```powershell
+streamlit run dashboard/dashboard_app.py
+```
+
+### Problem: Arabic text alignment looks wrong
+
+Restart Streamlit after editing CSS:
+
+```powershell
+Ctrl + C
+streamlit run dashboard/dashboard_app.py
+```
+
+---
+
+## 19. Demo Script
+
+```text
+1. Introduce the problem:
+   Rural entrepreneurs often make decisions without local data.
+
+2. Explain the target user:
+   A small business owner or local entrepreneur in a rural UAE community.
+
+3. Show the pre-loaded dashboard results first:
+   Start with the strongest recommendation, KPI cards, and opportunity matrix so the demo is stable and immediately understandable.
+
+4. Explain the upload option:
+   A CSV or Excel file can be uploaded to rerun the same pipeline on new community data.
+
+5. Explain the five-stage pipeline:
+   Collector → Cleaner → Multilingual NLP → Trend/BI → Dashboard Export.
+
+6. Show "What should I build?":
+   This answers the main question immediately.
+
+7. Show feasibility, scalability, and testability:
+   Explain that these scores help reduce business risk.
+
+8. Show the opportunity matrix:
+   Explain which ideas are high priority and which need more validation.
+
+9. Show Arabic/English switching:
+   This matters because real UAE community data may be bilingual.
+
+10. End with the future vision:
+    Saved projects, real surveys, WhatsApp collection, database, and production API.
+```
+
+---
+
+## 20. Future Improvements
+
+After the hackathon, the project can be improved with:
+
+- Real survey form integration
+- WhatsApp bot data collection
+- User accounts
+- Saved project dashboard
+- Database storage
+- API gateway
+- Authentication
+- Admin panel
+- Map visualization
+- More Arabic NLP tuning
+- Real government open-data integration
+- PDF report export
+- Mobile-friendly entrepreneur view
+
+---
+
+## 21. Hackathon Pitch Summary
+
+Bina Insight helps rural entrepreneurs decide what to build using evidence instead of guesswork. The system collects community survey data, cleans it, analyzes multilingual opinions with XLM-RoBERTa sentiment analysis and topic extraction, detects demand patterns, and converts them into feasibility, scalability, and testability scores. The dashboard then shows the strongest business opportunities for communities like Al Qua'a, where camel farming, remote service needs, and stargazing tourism create unique local market opportunities.
+
+---
+
+## 22. Status
 
 
+```text
+Prototype ready
+Runs locally
+Supports CSV/Excel upload
+Supports English and Arabic dashboard UI
+Full multilingual transformer sentiment analysis (XLM-RoBERTa)
+BERTopic / TF-IDF topic and keyword extraction
+Built-in Al Qua'a-specific recommendations by default
+Optional Claude API recommendations when USE_CLAUDE=true
+Business intelligence scoring
+Interactive Streamlit dashboard
+```
 
+---
+
+## 23. License
+
+This project was built as a hackathon prototype. 

@@ -1,8 +1,8 @@
 {
-  "batch_id": "B20260627_081146",
-  "created_at": "2026-06-27T08:11:46",
-  "input_file": "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\dashboard_uploads\\20260627_081146_rural_community_survey_mock_data_v2.csv",
-  "archived_original_file": "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\uploaded_files\\B20260627_081146_20260627_081146_rural_community_survey_mock_data_v2.csv",
+  "batch_id": "B20260627_133145",
+  "created_at": "2026-06-27T13:31:45",
+  "input_file": "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\dashboard_uploads\\20260627_133145_rural_community_survey_mock_data_v2.csv",
+  "archived_original_file": "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\uploaded_files\\B20260627_133145_20260627_133145_rural_community_survey_mock_data_v2.csv",
   "output_csv": "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\raw\\responses_raw.csv",
   "mode": "overwrite",
   "rows_imported": 150,

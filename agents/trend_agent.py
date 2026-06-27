@@ -1,14 +1,10 @@
-"""
-Agent 4 — Trend / Business Intelligence Agent
-Generates feasibility, scalability, testability, and contextual Claude recommendations.
-If ANTHROPIC_API_KEY is missing, it safely uses Al Qua'a-specific fallback ideas.
-"""
 from pathlib import Path
-import json
 import os
+import json
 import pandas as pd
 from dotenv import load_dotenv
 
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(PROJECT_ROOT / ".env")
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -243,14 +239,104 @@ def build_segment_recommendations(customer_segments):
     segments["suggested_business_idea"] = segments.apply(lambda row: get_business_idea(row["service_category"], row.to_dict()), axis=1)
     return segments.sort_values("pilot_readiness_score", ascending=False)
 
-def build_customer_targeting_summary(region_metrics, occupation_metrics, age_group_metrics, gender_metrics, budget_metrics):
+def build_customer_targeting_summary(
+    region_metrics,
+    occupation_metrics,
+    age_group_metrics,
+    gender_metrics,
+    budget_metrics,
+):
+
+    def add_market_strength_score(df):
+        df = df.copy()
+
+        if df.empty:
+            return df
+
+        if "market_strength_score" in df.columns:
+            df["market_strength_score"] = pd.to_numeric(
+                df["market_strength_score"],
+                errors="coerce",
+            ).fillna(0)
+            return df
+
+        for col in [
+            "need_score",
+            "payment_readiness_score",
+            "avg_importance",
+            "avg_frequency",
+            "avg_budget_aed",
+            "response_count",
+        ]:
+            if col in df.columns:
+                df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
+
+        score = 0
+
+        if "need_score" in df.columns:
+            score += df["need_score"] * 0.45
+
+        if "payment_readiness_score" in df.columns:
+            score += df["payment_readiness_score"] * 0.20
+
+        if "avg_importance" in df.columns:
+            score += (df["avg_importance"] / 5) * 20
+
+        if "avg_frequency" in df.columns:
+            score += (df["avg_frequency"] / 5) * 10
+
+        if "response_count" in df.columns:
+            max_count = df["response_count"].max()
+
+            if max_count > 0:
+                score += (df["response_count"] / max_count) * 5
+
+        df["market_strength_score"] = score.round(2)
+
+        return df
+
+    def get_top_row(df, label, group_col):
+        if df is None or df.empty:
+            return None
+
+        df = add_market_strength_score(df)
+
+        if group_col not in df.columns:
+            return None
+
+        if "market_strength_score" not in df.columns:
+            return None
+
+        df = df.sort_values("market_strength_score", ascending=False)
+
+        if df.empty:
+            return None
+
+        top = df.iloc[0]
+
+        return {
+            "target_type": label,
+            "target_group": top.get(group_col, "unknown"),
+            "score": round(float(top.get("market_strength_score", 0)), 2),
+            "meaning": f"Strongest {label.lower()} segment based on need, payment readiness, importance, frequency, and response volume.",
+        }
+
     rows = []
-    config = [(region_metrics, "region", "region_market_strength_score", "Region"), (occupation_metrics, "occupation", "occupation_market_strength_score", "Occupation"), (age_group_metrics, "age_group", "age_group_market_strength_score", "Age group"), (gender_metrics, "gender", "gender_market_strength_score", "Gender"), (budget_metrics, "monthly_budget", "budget_market_strength_score", "Budget group")]
-    for df, group_col, score_col, target_type in config:
-        if not df.empty:
-            if score_col not in df.columns: score_col = "market_strength_score"
-            top = df.sort_values(score_col, ascending=False).iloc[0]
-            rows.append({"target_type": target_type, "target_group": top[group_col], "score": top[score_col], "meaning": f"Strongest {target_type.lower()} signal in the collected sample."})
+
+    candidates = [
+        (region_metrics, "Region", "region"),
+        (occupation_metrics, "Occupation", "occupation"),
+        (age_group_metrics, "Age group", "age_group"),
+        (gender_metrics, "Gender", "gender"),
+        (budget_metrics, "Budget group", "monthly_budget"),
+    ]
+
+    for df, label, group_col in candidates:
+        row = get_top_row(df, label, group_col)
+
+        if row is not None:
+            rows.append(row)
+
     return pd.DataFrame(rows)
 
 def build_tableau_export(df, recommendations):

@@ -1,5 +1,5 @@
-service_category,response_count,avg_importance,avg_frequency,avg_budget_aed,avg_sentiment,top_service_category,top_region,top_occupation,top_age_group,top_gender,top_solution_type,unique_regions,unique_occupations,unique_age_groups,unique_genders,volume_score,budget_score,need_score,payment_readiness_score,testability_score,category_market_strength_score
-Rural Transport,65,3.769230769230769,2.9846153846153847,58.23076923076923,-0.6261599999999999,Rural Transport,Al Madam,teacher,18-24,female,SMS,7,7,5,2,1.0,0.8870534870534872,80.63,84.71,85.81,83.15
-Mobile Healthcare,31,4.096774193548387,2.774193548387097,65.64516129032258,-0.7783,Mobile Healthcare,Ghayathi,farmer,18-24,female,Website,7,7,5,2,0.47692307692307695,1.0,71.38,94.58,69.51,77.87
-Employment,22,4.0,3.1818181818181817,60.22727272727273,-0.5246,Employment,Delma Island,homemaker,35-44,male,Mobile app,7,7,5,2,0.3384615384615385,0.9174670538306903,70.23,88.22,65.49,74.44
-Connectivity,32,3.875,2.9375,53.59375,-0.7227,Connectivity,Hatta,student,35-44,female,Community center,7,7,5,2,0.49230769230769234,0.8164158476658477,71.29,80.4,67.21,73.0
+service_category,response_count,avg_importance,avg_frequency,avg_budget_aed,positive_share,negative_share,neutral_share,top_problem,top_needed_service,top_solution_type,need_score,payment_readiness_score
+Rural Transport,65,3.769230769230769,2.9846153846153847,58.23076923076923,0.6,0.4,0.0,Public transport is limited,Bus service,Community center,74.82,38.48
+Mobile Healthcare,31,4.096774193548387,2.774193548387097,65.64516129032258,0.0,1.0,0.0,Limited healthcare,Telemedicine,Website,60.48,100.0
+Connectivity,32,3.875,2.9375,53.59375,0.0,0.0,1.0,Poor internet,Internet upgrade,Community center,60.09,0.0
+Employment,22,4.0,3.1818181818181817,60.22727272727273,1.0,0.0,0.0,Few job opportunities,Job platform,Mobile app,58.27,55.04

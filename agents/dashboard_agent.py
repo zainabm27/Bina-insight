@@ -1,4 +1,3 @@
-"""Agent 5 — Dashboard / BI Export Agent. Prepares Tableau-ready exports."""
 from pathlib import Path
 import json
 import pandas as pd

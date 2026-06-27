@@ -1,9 +1,3 @@
-"""
-Agent 1 — Collector Agent
-Collects uploaded CSV/Excel files OR generates realistic Al Qua'a demo data.
-Outputs: data/raw/responses_raw.csv
-"""
-
 from pathlib import Path
 from datetime import datetime, timedelta
 import argparse

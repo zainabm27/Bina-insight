@@ -269,27 +269,10 @@ PREFERRED_SOLUTION_TYPES = [
 
 
 def choose_weighted(options, weights):
-    """
-    Choose one item from a list using weighted probabilities.
-    """
     return random.choices(options, weights=weights, k=1)[0]
 
 
 def create_demo_dataset(rows=250):
-    """
-    Create a synthetic dataset that simulates community opinion data.
-
-    This dataset represents opinions collected from rural or smaller UAE communities
-    through low-tech and assisted methods such as paper forms, interviews, QR surveys,
-    voice notes, and shop-owner notes.
-
-    Parameters:
-        rows:
-            Number of responses to generate.
-
-    Returns:
-        pandas DataFrame
-    """
 
     data = []
 

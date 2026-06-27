@@ -1,8 +1,3 @@
-"""
-Agent 2 — Cleaning Agent
-Fixes schema mismatch by using the reduced columns only.
-No current_solution, satisfaction_level, would_pay, urgency_level, or pain_score.
-"""
 from pathlib import Path
 import json
 import re
