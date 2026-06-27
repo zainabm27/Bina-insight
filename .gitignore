@@ -1,15 +1,32 @@
-.venv/
-venv/
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Jupyter
 .ipynb_checkpoints/
 
-data/raw/
-data/cleaned/
-data/processed/
-data/projects/
-
-dashboard/tableau_exports/
-
-.DS_Store
+# IDE / editor
 .idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local user uploads / private data
+data/uploaded_files/
+data/dashboard_uploads/
+
+# Logs
+*.log

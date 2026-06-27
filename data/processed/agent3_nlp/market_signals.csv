@@ -1,0 +1,7 @@
+signal_type,signal_name,score,meaning
+top_service_category,Rural Transport,83.15,Service category with strongest market signal.
+top_region,Ghayathi,82.77,Region with strongest demand and test potential.
+top_occupation,farmer,85.94,Occupation group most likely to be a strong customer segment.
+top_age_group,18-24,87.46,Age group with strongest demand and payment readiness.
+top_gender,male,83.53,Gender group with strongest market signal.
+top_budget_group,100+ AED,84.85,Budget group with strongest demand and payment-readiness signal.

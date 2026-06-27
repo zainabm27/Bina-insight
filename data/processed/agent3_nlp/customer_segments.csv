@@ -1,0 +1,133 @@
+service_category,region,occupation,age_group,response_count,avg_importance,avg_frequency,avg_budget_aed,avg_sentiment,top_service_category,top_region,top_occupation,top_age_group,top_gender,top_solution_type,unique_regions,unique_occupations,unique_age_groups,unique_genders,volume_score,budget_score,need_score,payment_readiness_score,testability_score,segment_market_strength_score
+Mobile Healthcare,Ghayathi,retired,18-24,1,5.0,4.0,120.0,-0.7783,Mobile Healthcare,Ghayathi,retired,18-24,male,SMS,1,1,1,1,0.3333333333333333,1.0,85.56,100.0,76.67,87.67
+Connectivity,Liwa,homemaker,35-44,1,5.0,4.0,120.0,-0.7227,Connectivity,Liwa,homemaker,35-44,male,Website,1,1,1,1,0.3333333333333333,1.0,85.28,100.0,76.67,87.54
+Employment,Al Sila,homemaker,35-44,1,5.0,4.0,120.0,-0.5246,Employment,Al Sila,homemaker,35-44,female,Mobile app,1,1,1,1,0.3333333333333333,1.0,84.29,100.0,76.67,87.1
+Employment,Al Sila,driver,35-44,2,4.0,3.5,120.0,-0.5246,Employment,Al Sila,driver,35-44,male,SMS,1,1,1,1,0.6666666666666666,1.0,79.58,94.0,80.21,84.06
+Mobile Healthcare,Ghayathi,retired,25-34,1,5.0,3.0,120.0,-0.7783,Mobile Healthcare,Ghayathi,retired,25-34,female,Website,1,1,1,1,0.3333333333333333,1.0,76.81,100.0,70.42,82.17
+Mobile Healthcare,Masafi,farmer,18-24,1,5.0,3.0,120.0,-0.7783,Mobile Healthcare,Masafi,farmer,18-24,male,Website,1,1,1,1,0.3333333333333333,1.0,76.81,100.0,70.42,82.17
+Connectivity,Delma Island,student,55+,1,5.0,3.0,120.0,-0.7227,Connectivity,Delma Island,student,55+,female,Community center,1,1,1,1,0.3333333333333333,1.0,76.53,100.0,70.42,82.04
+Rural Transport,Al Sila,teacher,18-24,1,5.0,3.0,120.0,-0.6798,Rural Transport,Al Sila,teacher,18-24,male,SMS,1,1,1,1,0.3333333333333333,1.0,76.32,100.0,70.42,81.95
+Mobile Healthcare,Ghayathi,farmer,35-44,1,5.0,4.0,75.0,-0.7783,Mobile Healthcare,Ghayathi,farmer,35-44,female,Mobile app,1,1,1,1,0.3333333333333333,0.625,85.56,73.75,71.04,78.39
+Rural Transport,Delma Island,driver,18-24,1,5.0,4.0,75.0,-0.6798,Rural Transport,Delma Island,driver,18-24,female,Community center,1,1,1,1,0.3333333333333333,0.625,85.07,73.75,71.04,78.17
+Rural Transport,Al Madam,homemaker,18-24,2,5.0,3.5,60.0,-0.6127499999999999,Rural Transport,Al Madam,homemaker,18-24,female,SMS,1,1,1,2,0.6666666666666666,0.5,87.02,65.0,77.71,78.09
+Employment,Ghayathi,farmer,35-44,1,5.0,4.0,75.0,-0.5246,Employment,Ghayathi,farmer,35-44,male,Community center,1,1,1,1,0.3333333333333333,0.625,84.29,73.75,71.04,77.82
+Employment,Ghayathi,teacher,18-24,1,5.0,4.0,75.0,-0.5246,Employment,Ghayathi,teacher,18-24,male,Mobile app,1,1,1,1,0.3333333333333333,0.625,84.29,73.75,71.04,77.82
+Mobile Healthcare,Al Madam,teacher,18-24,1,5.0,2.0,120.0,-0.7783,Mobile Healthcare,Al Madam,teacher,18-24,female,Community center,1,1,1,1,0.3333333333333333,1.0,68.06,100.0,64.17,76.67
+Mobile Healthcare,Masafi,homemaker,18-24,1,5.0,2.0,120.0,-0.7783,Mobile Healthcare,Masafi,homemaker,18-24,male,SMS,1,1,1,1,0.3333333333333333,1.0,68.06,100.0,64.17,76.67
+Connectivity,Al Madam,farmer,45-54,1,5.0,2.0,120.0,-0.7227,Connectivity,Al Madam,farmer,45-54,female,Mobile app,1,1,1,1,0.3333333333333333,1.0,67.78,100.0,64.17,76.54
+Connectivity,Al Madam,retired,25-34,1,5.0,2.0,120.0,-0.7227,Connectivity,Al Madam,retired,25-34,male,SMS,1,1,1,1,0.3333333333333333,1.0,67.78,100.0,64.17,76.54
+Connectivity,Ghayathi,retired,35-44,1,5.0,2.0,120.0,-0.7227,Connectivity,Ghayathi,retired,35-44,female,Website,1,1,1,1,0.3333333333333333,1.0,67.78,100.0,64.17,76.54
+Rural Transport,Hatta,shop owner,45-54,1,5.0,2.0,120.0,-0.6798,Rural Transport,Hatta,shop owner,45-54,female,SMS,1,1,1,1,0.3333333333333333,1.0,67.57,100.0,64.17,76.45
+Rural Transport,Ghayathi,farmer,25-34,1,5.0,2.0,120.0,-0.6798,Rural Transport,Ghayathi,farmer,25-34,female,SMS,1,1,1,1,0.3333333333333333,1.0,67.57,100.0,64.17,76.45
+Rural Transport,Delma Island,driver,25-34,1,5.0,2.0,120.0,-0.6798,Rural Transport,Delma Island,driver,25-34,male,SMS,1,1,1,1,0.3333333333333333,1.0,67.57,100.0,64.17,76.45
+Rural Transport,Al Sila,retired,45-54,1,5.0,2.0,120.0,-0.5457,Rural Transport,Al Sila,retired,45-54,male,Mobile app,1,1,1,1,0.3333333333333333,1.0,66.9,100.0,64.17,76.15
+Connectivity,Hatta,teacher,18-24,2,4.0,3.5,75.0,-0.7227,Connectivity,Hatta,teacher,18-24,female,Website,1,1,1,1,0.6666666666666666,0.625,80.57,67.75,74.58,75.23
+Rural Transport,Al Madam,retired,55+,1,3.0,4.0,120.0,-0.5457,Rural Transport,Al Madam,retired,55+,male,SMS,1,1,1,1,0.3333333333333333,1.0,70.4,88.0,66.67,74.75
+Rural Transport,Liwa,retired,18-24,1,3.0,4.0,120.0,-0.5457,Rural Transport,Liwa,retired,18-24,female,Community center,1,1,1,1,0.3333333333333333,1.0,70.4,88.0,66.67,74.75
+Employment,Delma Island,student,35-44,1,3.0,4.0,120.0,-0.5246,Employment,Delma Island,student,35-44,male,Community center,1,1,1,1,0.3333333333333333,1.0,70.29,88.0,66.67,74.7
+Employment,Ghayathi,shop owner,35-44,1,3.0,4.0,120.0,-0.5246,Employment,Ghayathi,shop owner,35-44,female,SMS,1,1,1,1,0.3333333333333333,1.0,70.29,88.0,66.67,74.7
+Rural Transport,Masafi,student,25-34,2,5.0,3.5,40.0,-0.6127499999999999,Rural Transport,Masafi,student,25-34,female,Website,1,1,1,2,0.6666666666666666,0.3333333333333333,87.02,53.33,75.21,73.96
+Mobile Healthcare,Al Madam,farmer,18-24,2,4.0,3.0,80.0,-0.7783,Mobile Healthcare,Al Madam,farmer,18-24,female,Mobile app,1,1,1,1,0.6666666666666666,0.6666666666666666,76.47,70.67,72.08,73.63
+Mobile Healthcare,Masafi,student,35-44,1,5.0,3.0,75.0,-0.7783,Mobile Healthcare,Masafi,student,35-44,female,Mobile app,1,1,1,1,0.3333333333333333,0.625,76.81,73.75,64.79,72.89
+Connectivity,Hatta,shop owner,35-44,1,5.0,3.0,75.0,-0.7227,Connectivity,Hatta,shop owner,35-44,male,Website,1,1,1,1,0.3333333333333333,0.625,76.53,73.75,64.79,72.76
+Rural Transport,Liwa,teacher,55+,1,5.0,3.0,75.0,-0.6798,Rural Transport,Liwa,teacher,55+,male,SMS,1,1,1,1,0.3333333333333333,0.625,76.32,73.75,64.79,72.67
+Employment,Al Sila,retired,45-54,1,5.0,3.0,75.0,-0.5246,Employment,Al Sila,retired,45-54,male,Website,1,1,1,1,0.3333333333333333,0.625,75.54,73.75,64.79,72.32
+Rural Transport,Al Madam,farmer,35-44,2,4.0,3.5,60.0,-0.6798,Rural Transport,Al Madam,farmer,35-44,male,Community center,1,1,1,1,0.6666666666666666,0.5,80.36,59.0,72.71,72.04
+Rural Transport,Masafi,teacher,25-34,2,4.0,3.5,60.0,-0.6798,Rural Transport,Masafi,teacher,25-34,female,Mobile app,1,1,1,2,0.6666666666666666,0.5,80.36,59.0,72.71,72.04
+Rural Transport,Delma Island,teacher,18-24,2,2.0,3.5,120.0,-0.5457,Rural Transport,Delma Island,teacher,18-24,male,SMS,1,1,1,1,0.6666666666666666,1.0,65.69,82.0,70.21,71.71
+Mobile Healthcare,Ghayathi,shop owner,55+,1,5.0,4.0,40.0,-0.7783,Mobile Healthcare,Ghayathi,shop owner,55+,male,Website,1,1,1,1,0.3333333333333333,0.3333333333333333,85.56,53.33,66.67,71.17
+Connectivity,Hatta,retired,18-24,1,5.0,4.0,40.0,-0.7227,Connectivity,Hatta,retired,18-24,female,SMS,1,1,1,1,0.3333333333333333,0.3333333333333333,85.28,53.33,66.67,71.04
+Connectivity,Delma Island,driver,25-34,1,5.0,4.0,40.0,-0.7227,Connectivity,Delma Island,driver,25-34,female,SMS,1,1,1,1,0.3333333333333333,0.3333333333333333,85.28,53.33,66.67,71.04
+Rural Transport,Liwa,driver,35-44,1,5.0,4.0,40.0,-0.6798,Rural Transport,Liwa,driver,35-44,female,Community center,1,1,1,1,0.3333333333333333,0.3333333333333333,85.07,53.33,66.67,70.95
+Rural Transport,Ghayathi,shop owner,35-44,1,5.0,4.0,40.0,-0.5457,Rural Transport,Ghayathi,shop owner,35-44,female,SMS,1,1,1,1,0.3333333333333333,0.3333333333333333,84.4,53.33,66.67,70.65
+Employment,Liwa,shop owner,45-54,1,5.0,4.0,40.0,-0.5246,Employment,Liwa,shop owner,45-54,male,Mobile app,1,1,1,1,0.3333333333333333,0.3333333333333333,84.29,53.33,66.67,70.6
+Rural Transport,Al Sila,teacher,35-44,2,4.0,4.0,37.5,-0.6798,Rural Transport,Al Sila,teacher,35-44,female,Community center,1,1,1,1,0.6666666666666666,0.3125,84.73,45.88,73.02,70.15
+Rural Transport,Al Madam,farmer,25-34,2,3.0,2.0,120.0,-0.6798,Rural Transport,Al Madam,farmer,25-34,male,SMS,1,1,1,1,0.6666666666666666,1.0,60.23,88.0,65.83,69.96
+Rural Transport,Masafi,homemaker,45-54,1,3.0,3.0,120.0,-0.6798,Rural Transport,Masafi,homemaker,45-54,female,SMS,1,1,1,1,0.3333333333333333,1.0,62.32,88.0,60.42,69.55
+Rural Transport,Ghayathi,retired,18-24,1,3.0,3.0,120.0,-0.6798,Rural Transport,Ghayathi,retired,18-24,female,SMS,1,1,1,1,0.3333333333333333,1.0,62.32,88.0,60.42,69.55
+Rural Transport,Al Madam,retired,25-34,1,3.0,3.0,120.0,-0.5457,Rural Transport,Al Madam,retired,25-34,male,Website,1,1,1,1,0.3333333333333333,1.0,61.65,88.0,60.42,69.25
+Connectivity,Al Sila,driver,55+,2,4.0,3.0,57.5,-0.7227,Connectivity,Al Sila,driver,55+,female,Community center,1,1,1,2,0.6666666666666666,0.4791666666666667,76.2,57.54,69.27,68.87
+Mobile Healthcare,Hatta,farmer,45-54,1,5.0,2.0,75.0,-0.7783,Mobile Healthcare,Hatta,farmer,45-54,male,Website,1,1,1,1,0.3333333333333333,0.625,68.06,73.75,58.54,67.39
+Mobile Healthcare,Liwa,student,45-54,1,5.0,2.0,75.0,-0.7783,Mobile Healthcare,Liwa,student,45-54,female,Website,1,1,1,1,0.3333333333333333,0.625,68.06,73.75,58.54,67.39
+Mobile Healthcare,Hatta,driver,18-24,1,5.0,2.0,75.0,-0.7783,Mobile Healthcare,Hatta,driver,18-24,female,Website,1,1,1,1,0.3333333333333333,0.625,68.06,73.75,58.54,67.39
+Mobile Healthcare,Masafi,farmer,25-34,1,5.0,2.0,75.0,-0.7783,Mobile Healthcare,Masafi,farmer,25-34,female,SMS,1,1,1,1,0.3333333333333333,0.625,68.06,73.75,58.54,67.39
+Mobile Healthcare,Ghayathi,homemaker,18-24,1,5.0,2.0,75.0,-0.7783,Mobile Healthcare,Ghayathi,homemaker,18-24,female,Mobile app,1,1,1,1,0.3333333333333333,0.625,68.06,73.75,58.54,67.39
+Connectivity,Al Madam,retired,18-24,1,5.0,2.0,75.0,-0.7227,Connectivity,Al Madam,retired,18-24,female,Mobile app,1,1,1,1,0.3333333333333333,0.625,67.78,73.75,58.54,67.26
+Rural Transport,Delma Island,farmer,55+,1,5.0,2.0,75.0,-0.6798,Rural Transport,Delma Island,farmer,55+,female,Website,1,1,1,1,0.3333333333333333,0.625,67.57,73.75,58.54,67.17
+Rural Transport,Hatta,shop owner,35-44,1,5.0,2.0,75.0,-0.5457,Rural Transport,Hatta,shop owner,35-44,male,Website,1,1,1,1,0.3333333333333333,0.625,66.9,73.75,58.54,66.87
+Employment,Delma Island,homemaker,45-54,1,5.0,2.0,75.0,-0.5246,Employment,Delma Island,homemaker,45-54,male,SMS,1,1,1,1,0.3333333333333333,0.625,66.79,73.75,58.54,66.82
+Employment,Delma Island,shop owner,25-34,1,5.0,2.0,75.0,-0.5246,Employment,Delma Island,shop owner,25-34,female,Mobile app,1,1,1,1,0.3333333333333333,0.625,66.79,73.75,58.54,66.82
+Connectivity,Ghayathi,homemaker,18-24,1,3.0,4.0,75.0,-0.7227,Connectivity,Ghayathi,homemaker,18-24,male,SMS,1,1,1,1,0.3333333333333333,0.625,71.28,61.75,61.04,65.86
+Rural Transport,Al Madam,student,25-34,1,3.0,4.0,75.0,-0.6798,Rural Transport,Al Madam,student,25-34,male,Website,1,1,1,1,0.3333333333333333,0.625,71.07,61.75,61.04,65.77
+Mobile Healthcare,Masafi,farmer,35-44,1,5.0,3.0,40.0,-0.7783,Mobile Healthcare,Masafi,farmer,35-44,male,Community center,1,1,1,1,0.3333333333333333,0.3333333333333333,76.81,53.33,60.42,65.67
+Mobile Healthcare,Hatta,shop owner,18-24,1,5.0,3.0,40.0,-0.7783,Mobile Healthcare,Hatta,shop owner,18-24,male,Website,1,1,1,1,0.3333333333333333,0.3333333333333333,76.81,53.33,60.42,65.67
+Connectivity,Masafi,student,55+,1,5.0,3.0,40.0,-0.7227,Connectivity,Masafi,student,55+,female,Website,1,1,1,1,0.3333333333333333,0.3333333333333333,76.53,53.33,60.42,65.54
+Rural Transport,Al Madam,driver,18-24,1,5.0,3.0,40.0,-0.6798,Rural Transport,Al Madam,driver,18-24,male,Mobile app,1,1,1,1,0.3333333333333333,0.3333333333333333,76.32,53.33,60.42,65.45
+Rural Transport,Delma Island,teacher,55+,1,5.0,3.0,40.0,-0.6798,Rural Transport,Delma Island,teacher,55+,female,Mobile app,1,1,1,1,0.3333333333333333,0.3333333333333333,76.32,53.33,60.42,65.45
+Rural Transport,Delma Island,farmer,18-24,1,5.0,3.0,40.0,-0.6798,Rural Transport,Delma Island,farmer,18-24,male,Mobile app,1,1,1,1,0.3333333333333333,0.3333333333333333,76.32,53.33,60.42,65.45
+Rural Transport,Hatta,retired,18-24,2,5.0,2.5,20.0,-0.6127499999999999,Rural Transport,Hatta,retired,18-24,female,Website,1,1,1,2,0.6666666666666666,0.16666666666666666,78.27,41.67,66.46,64.34
+Mobile Healthcare,Ghayathi,farmer,18-24,1,3.0,2.0,120.0,-0.7783,Mobile Healthcare,Ghayathi,farmer,18-24,male,SMS,1,1,1,1,0.3333333333333333,1.0,54.06,88.0,54.17,64.27
+Mobile Healthcare,Al Madam,farmer,25-34,1,3.0,2.0,120.0,-0.7783,Mobile Healthcare,Al Madam,farmer,25-34,female,Website,1,1,1,1,0.3333333333333333,1.0,54.06,88.0,54.17,64.27
+Rural Transport,Al Sila,retired,35-44,3,4.333333333333333,2.0,25.0,-0.5457,Rural Transport,Al Sila,retired,35-44,female,Mobile app,1,1,1,2,1.0,0.20833333333333334,75.56,40.58,72.29,64.25
+Rural Transport,Al Madam,homemaker,35-44,1,3.0,2.0,120.0,-0.5457,Rural Transport,Al Madam,homemaker,35-44,male,Community center,1,1,1,1,0.3333333333333333,1.0,52.9,88.0,54.17,63.75
+Mobile Healthcare,Delma Island,teacher,25-34,1,5.0,4.0,0.0,-0.7783,Mobile Healthcare,Delma Island,teacher,25-34,female,Mobile app,1,1,1,1,0.3333333333333333,0.0,85.56,30.0,61.67,62.92
+Connectivity,Liwa,farmer,55+,1,5.0,4.0,0.0,-0.7227,Connectivity,Liwa,farmer,55+,male,Mobile app,1,1,1,1,0.3333333333333333,0.0,85.28,30.0,61.67,62.79
+Rural Transport,Masafi,teacher,35-44,2,3.0,3.0,57.5,-0.6127499999999999,Rural Transport,Masafi,teacher,35-44,male,Community center,1,1,1,1,0.6666666666666666,0.4791666666666667,68.65,51.54,64.27,62.42
+Rural Transport,Delma Island,student,25-34,1,5.0,4.0,0.0,-0.5457,Rural Transport,Delma Island,student,25-34,male,Community center,1,1,1,1,0.3333333333333333,0.0,84.4,30.0,61.67,62.4
+Employment,Al Madam,farmer,45-54,1,5.0,4.0,0.0,-0.5246,Employment,Al Madam,farmer,45-54,male,Community center,1,1,1,1,0.3333333333333333,0.0,84.29,30.0,61.67,62.35
+Connectivity,Hatta,shop owner,18-24,2,2.0,2.5,97.5,-0.7227,Connectivity,Hatta,shop owner,18-24,female,SMS,1,1,1,2,0.6666666666666666,0.8125,57.82,68.88,61.15,61.97
+Connectivity,Masafi,teacher,35-44,1,3.0,3.0,75.0,-0.7227,Connectivity,Masafi,teacher,35-44,female,Website,1,1,1,1,0.3333333333333333,0.625,62.53,61.75,54.79,60.36
+Rural Transport,Al Sila,farmer,25-34,1,3.0,3.0,75.0,-0.6798,Rural Transport,Al Sila,farmer,25-34,female,Website,1,1,1,1,0.3333333333333333,0.625,62.32,61.75,54.79,60.27
+Rural Transport,Al Madam,driver,35-44,1,3.0,3.0,75.0,-0.6798,Rural Transport,Al Madam,driver,35-44,male,Website,1,1,1,1,0.3333333333333333,0.625,62.32,61.75,54.79,60.27
+Mobile Healthcare,Ghayathi,driver,25-34,1,5.0,2.0,40.0,-0.7783,Mobile Healthcare,Ghayathi,driver,25-34,female,SMS,1,1,1,1,0.3333333333333333,0.3333333333333333,68.06,53.33,54.17,60.17
+Connectivity,Al Sila,teacher,18-24,1,5.0,2.0,40.0,-0.7227,Connectivity,Al Sila,teacher,18-24,male,Mobile app,1,1,1,1,0.3333333333333333,0.3333333333333333,67.78,53.33,54.17,60.04
+Connectivity,Masafi,student,45-54,1,5.0,2.0,40.0,-0.7227,Connectivity,Masafi,student,45-54,female,Community center,1,1,1,1,0.3333333333333333,0.3333333333333333,67.78,53.33,54.17,60.04
+Employment,Delma Island,farmer,18-24,1,3.0,3.0,75.0,-0.5246,Employment,Delma Island,farmer,18-24,female,Mobile app,1,1,1,1,0.3333333333333333,0.625,61.54,61.75,54.79,59.92
+Employment,Masafi,homemaker,18-24,1,5.0,2.0,40.0,-0.5246,Employment,Masafi,homemaker,18-24,female,Mobile app,1,1,1,1,0.3333333333333333,0.3333333333333333,66.79,53.33,54.17,59.6
+Connectivity,Hatta,homemaker,35-44,1,3.0,4.0,40.0,-0.7227,Connectivity,Hatta,homemaker,35-44,female,Community center,1,1,1,1,0.3333333333333333,0.3333333333333333,71.28,41.33,56.67,58.64
+Rural Transport,Masafi,farmer,45-54,1,3.0,4.0,40.0,-0.6798,Rural Transport,Masafi,farmer,45-54,male,Mobile app,1,1,1,1,0.3333333333333333,0.3333333333333333,71.07,41.33,56.67,58.55
+Rural Transport,Al Madam,teacher,18-24,1,3.0,4.0,40.0,-0.5457,Rural Transport,Al Madam,teacher,18-24,female,SMS,1,1,1,1,0.3333333333333333,0.3333333333333333,70.4,41.33,56.67,58.25
+Employment,Ghayathi,student,35-44,1,3.0,4.0,40.0,-0.5246,Employment,Ghayathi,student,35-44,female,SMS,1,1,1,1,0.3333333333333333,0.3333333333333333,70.29,41.33,56.67,58.2
+Employment,Hatta,shop owner,25-34,1,3.0,4.0,40.0,-0.5246,Employment,Hatta,shop owner,25-34,female,Website,1,1,1,1,0.3333333333333333,0.3333333333333333,70.29,41.33,56.67,58.2
+Mobile Healthcare,Al Madam,teacher,25-34,1,5.0,3.0,0.0,-0.7783,Mobile Healthcare,Al Madam,teacher,25-34,female,SMS,1,1,1,1,0.3333333333333333,0.0,76.81,30.0,55.42,57.42
+Mobile Healthcare,Al Sila,driver,35-44,1,1.0,3.0,120.0,-0.7783,Mobile Healthcare,Al Sila,driver,35-44,male,Website,1,1,1,1,0.3333333333333333,1.0,48.81,76.0,50.42,57.37
+Connectivity,Delma Island,student,25-34,1,5.0,3.0,0.0,-0.7227,Connectivity,Delma Island,student,25-34,male,Community center,1,1,1,1,0.3333333333333333,0.0,76.53,30.0,55.42,57.29
+Rural Transport,Al Sila,shop owner,45-54,1,5.0,3.0,0.0,-0.6798,Rural Transport,Al Sila,shop owner,45-54,female,Community center,1,1,1,1,0.3333333333333333,0.0,76.32,30.0,55.42,57.2
+Rural Transport,Hatta,student,45-54,1,1.0,3.0,120.0,-0.6798,Rural Transport,Hatta,student,45-54,male,SMS,1,1,1,1,0.3333333333333333,1.0,48.32,76.0,50.42,57.15
+Rural Transport,Hatta,homemaker,45-54,1,1.0,3.0,120.0,-0.5457,Rural Transport,Hatta,homemaker,45-54,male,Website,1,1,1,1,0.3333333333333333,1.0,47.65,76.0,50.42,56.85
+Employment,Ghayathi,farmer,45-54,1,5.0,3.0,0.0,-0.5246,Employment,Ghayathi,farmer,45-54,female,Mobile app,1,1,1,1,0.3333333333333333,0.0,75.54,30.0,55.42,56.85
+Mobile Healthcare,Liwa,teacher,25-34,1,3.0,2.0,75.0,-0.7783,Mobile Healthcare,Liwa,teacher,25-34,male,Mobile app,1,1,1,1,0.3333333333333333,0.625,54.06,61.75,48.54,54.99
+Rural Transport,Al Sila,farmer,55+,1,3.0,2.0,75.0,-0.5457,Rural Transport,Al Sila,farmer,55+,male,Website,1,1,1,1,0.3333333333333333,0.625,52.9,61.75,48.54,54.46
+Employment,Masafi,homemaker,55+,1,3.0,2.0,75.0,-0.5246,Employment,Masafi,homemaker,55+,female,Community center,1,1,1,1,0.3333333333333333,0.625,52.79,61.75,48.54,54.42
+Connectivity,Ghayathi,shop owner,25-34,1,1.0,4.0,75.0,-0.7227,Connectivity,Ghayathi,shop owner,25-34,male,Community center,1,1,1,1,0.3333333333333333,0.625,57.28,49.75,51.04,53.46
+Mobile Healthcare,Al Sila,student,25-34,1,3.0,3.0,40.0,-0.7783,Mobile Healthcare,Al Sila,student,25-34,male,SMS,1,1,1,1,0.3333333333333333,0.3333333333333333,62.81,41.33,50.42,53.27
+Connectivity,Al Madam,shop owner,45-54,1,3.0,3.0,40.0,-0.7227,Connectivity,Al Madam,shop owner,45-54,female,Mobile app,1,1,1,1,0.3333333333333333,0.3333333333333333,62.53,41.33,50.42,53.14
+Connectivity,Delma Island,driver,35-44,1,5.0,2.0,0.0,-0.7227,Connectivity,Delma Island,driver,35-44,male,Community center,1,1,1,1,0.3333333333333333,0.0,67.78,30.0,49.17,51.79
+Connectivity,Liwa,student,35-44,1,5.0,2.0,0.0,-0.7227,Connectivity,Liwa,student,35-44,female,SMS,1,1,1,1,0.3333333333333333,0.0,67.78,30.0,49.17,51.79
+Rural Transport,Al Madam,driver,25-34,1,5.0,2.0,0.0,-0.6798,Rural Transport,Al Madam,driver,25-34,female,Community center,1,1,1,1,0.3333333333333333,0.0,67.57,30.0,49.17,51.7
+Rural Transport,Al Sila,driver,18-24,1,5.0,2.0,0.0,-0.6798,Rural Transport,Al Sila,driver,18-24,female,Website,1,1,1,1,0.3333333333333333,0.0,67.57,30.0,49.17,51.7
+Rural Transport,Al Sila,retired,55+,1,5.0,2.0,0.0,-0.5457,Rural Transport,Al Sila,retired,55+,female,Community center,1,1,1,1,0.3333333333333333,0.0,66.9,30.0,49.17,51.4
+Rural Transport,Al Sila,student,25-34,1,5.0,2.0,0.0,-0.5457,Rural Transport,Al Sila,student,25-34,female,Community center,1,1,1,1,0.3333333333333333,0.0,66.9,30.0,49.17,51.4
+Employment,Al Madam,homemaker,45-54,1,5.0,2.0,0.0,-0.5246,Employment,Al Madam,homemaker,45-54,male,Mobile app,1,1,1,1,0.3333333333333333,0.0,66.79,30.0,49.17,51.35
+Mobile Healthcare,Delma Island,retired,35-44,1,3.0,4.0,0.0,-0.7783,Mobile Healthcare,Delma Island,retired,35-44,female,Website,1,1,1,1,0.3333333333333333,0.0,71.56,18.0,51.67,50.52
+Mobile Healthcare,Al Madam,retired,55+,1,3.0,4.0,0.0,-0.7783,Mobile Healthcare,Al Madam,retired,55+,female,Community center,1,1,1,1,0.3333333333333333,0.0,71.56,18.0,51.67,50.52
+Rural Transport,Hatta,teacher,45-54,1,3.0,4.0,0.0,-0.6798,Rural Transport,Hatta,teacher,45-54,female,Community center,1,1,1,1,0.3333333333333333,0.0,71.07,18.0,51.67,50.3
+Rural Transport,Delma Island,homemaker,18-24,1,3.0,4.0,0.0,-0.6798,Rural Transport,Delma Island,homemaker,18-24,female,SMS,1,1,1,1,0.3333333333333333,0.0,71.07,18.0,51.67,50.3
+Rural Transport,Liwa,shop owner,55+,1,3.0,4.0,0.0,-0.6798,Rural Transport,Liwa,shop owner,55+,female,Website,1,1,1,1,0.3333333333333333,0.0,71.07,18.0,51.67,50.3
+Rural Transport,Al Madam,homemaker,55+,1,3.0,4.0,0.0,-0.5457,Rural Transport,Al Madam,homemaker,55+,female,Website,1,1,1,1,0.3333333333333333,0.0,70.4,18.0,51.67,50.0
+Connectivity,Masafi,retired,55+,2,3.0,2.5,0.0,-0.7227,Connectivity,Masafi,retired,55+,male,Community center,1,1,1,1,0.6666666666666666,0.0,64.82,18.0,53.96,48.06
+Mobile Healthcare,Al Madam,shop owner,18-24,1,3.0,2.0,40.0,-0.7783,Mobile Healthcare,Al Madam,shop owner,18-24,female,SMS,1,1,1,1,0.3333333333333333,0.3333333333333333,54.06,41.33,44.17,47.77
+Rural Transport,Liwa,teacher,45-54,1,3.0,2.0,40.0,-0.6798,Rural Transport,Liwa,teacher,45-54,female,Community center,1,1,1,1,0.3333333333333333,0.3333333333333333,53.57,41.33,44.17,47.55
+Rural Transport,Masafi,farmer,25-34,2,2.0,2.5,20.0,-0.6127499999999999,Rural Transport,Masafi,farmer,25-34,female,Mobile app,1,1,1,2,0.6666666666666666,0.16666666666666666,57.27,23.67,51.46,45.74
+Mobile Healthcare,Masafi,driver,18-24,1,3.0,3.0,0.0,-0.7783,Mobile Healthcare,Masafi,driver,18-24,female,Website,1,1,1,1,0.3333333333333333,0.0,62.81,18.0,45.42,45.02
+Mobile Healthcare,Ghayathi,student,25-34,1,3.0,3.0,0.0,-0.7783,Mobile Healthcare,Ghayathi,student,25-34,female,SMS,1,1,1,1,0.3333333333333333,0.0,62.81,18.0,45.42,45.02
+Employment,Liwa,homemaker,35-44,1,3.0,3.0,0.0,-0.5246,Employment,Liwa,homemaker,35-44,female,Community center,1,1,1,1,0.3333333333333333,0.0,61.54,18.0,45.42,44.45
+Employment,Al Sila,student,55+,1,3.0,3.0,0.0,-0.5246,Employment,Al Sila,student,55+,female,Community center,1,1,1,1,0.3333333333333333,0.0,61.54,18.0,45.42,44.45
+Mobile Healthcare,Ghayathi,teacher,35-44,1,1.0,2.0,75.0,-0.7783,Mobile Healthcare,Ghayathi,teacher,35-44,female,Community center,1,1,1,1,0.3333333333333333,0.625,40.06,49.75,38.54,42.59
+Connectivity,Masafi,teacher,55+,1,3.0,2.0,0.0,-0.7227,Connectivity,Masafi,teacher,55+,male,SMS,1,1,1,1,0.3333333333333333,0.0,53.78,18.0,39.17,39.39
+Rural Transport,Al Madam,teacher,55+,1,3.0,2.0,0.0,-0.5457,Rural Transport,Al Madam,teacher,55+,female,SMS,1,1,1,1,0.3333333333333333,0.0,52.9,18.0,39.17,39.0
+Connectivity,Al Sila,student,35-44,1,1.0,4.0,0.0,-0.7227,Connectivity,Al Sila,student,35-44,male,Website,1,1,1,1,0.3333333333333333,0.0,57.28,6.0,41.67,37.99
+Rural Transport,Al Madam,teacher,45-54,1,1.0,4.0,0.0,-0.6798,Rural Transport,Al Madam,teacher,45-54,male,Community center,1,1,1,1,0.3333333333333333,0.0,57.07,6.0,41.67,37.9
+Rural Transport,Hatta,driver,18-24,1,1.0,2.0,40.0,-0.5457,Rural Transport,Hatta,driver,18-24,female,Mobile app,1,1,1,1,0.3333333333333333,0.3333333333333333,38.9,29.33,34.17,34.85
+Employment,Delma Island,teacher,35-44,1,1.0,2.0,40.0,-0.5246,Employment,Delma Island,teacher,35-44,male,Community center,1,1,1,1,0.3333333333333333,0.3333333333333333,38.79,29.33,34.17,34.8
+Connectivity,Al Sila,farmer,35-44,1,1.0,3.0,0.0,-0.7227,Connectivity,Al Sila,farmer,35-44,male,SMS,1,1,1,1,0.3333333333333333,0.0,48.53,6.0,35.42,32.49

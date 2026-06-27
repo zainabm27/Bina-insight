@@ -1,0 +1,49 @@
+{
+  "agent": "Agent 2 - Cleaning Agent",
+  "input_file": "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\raw\\responses_raw.csv",
+  "output_file": "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\cleaned\\responses_cleaned.csv",
+  "rows_before_cleaning": 150,
+  "rows_after_cleaning": 150,
+  "invalid_dates_removed": 0,
+  "duplicates_removed": 0,
+  "empty_text_rows_removed": 0,
+  "category_files_created": [
+    "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\cleaned\\categories\\connectivity.csv",
+    "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\cleaned\\categories\\employment.csv",
+    "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\cleaned\\categories\\mobile_healthcare.csv",
+    "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\cleaned\\categories\\rural_transport.csv"
+  ],
+  "categories": [
+    "Connectivity",
+    "Employment",
+    "Mobile Healthcare",
+    "Rural Transport"
+  ],
+  "columns": [
+    "response_id",
+    "age_group",
+    "gender",
+    "region",
+    "occupation",
+    "source",
+    "main_problem",
+    "needed_service",
+    "service_category",
+    "importance_level",
+    "frequency_of_problem",
+    "preferred_solution_type",
+    "monthly_budget",
+    "opinion_text",
+    "date_collected",
+    "import_batch_id",
+    "imported_at",
+    "source_file_name",
+    "importance_score",
+    "frequency_key",
+    "budget_key",
+    "frequency_score",
+    "budget_midpoint_aed",
+    "analysis_text"
+  ],
+  "schema_note": "Reduced schema: no current_solution, satisfaction_level, would_pay, urgency_level, or pain_score."
+}

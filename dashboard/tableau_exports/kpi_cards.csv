@@ -1,0 +1,13 @@
+kpi_name,kpi_value,kpi_type,description
+Total responses,150,count,Number of collected community responses.
+Service categories,4,count,Number of service categories analyzed.
+Regions covered,7,count,Number of regions represented.
+Occupations covered,7,count,Number of occupation groups represented.
+Top opportunity,Mobile Healthcare,text,Highest-ranked service category.
+Top opportunity score,60.59,score,Highest business opportunity score.
+Recommendation,Needs validation,text,Recommendation label for top opportunity.
+Top region,Al Madam,text,Region with strongest local need.
+Top pilot segment,Employment | Al Sila | driver | 35-44,text,Best customer group to test with first.
+Average feasibility,41.56,score,Average feasibility score.
+Average scalability,47.91,score,Average scalability score.
+Average testability,65.08,score,Average testability score.

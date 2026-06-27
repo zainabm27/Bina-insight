@@ -1,0 +1,6 @@
+target_type,target_group,score,meaning
+Region,Ghayathi,82.77,Strongest region signal in the collected sample.
+Occupation,farmer,85.94,Strongest occupation signal in the collected sample.
+Age group,18-24,87.46,Strongest age group signal in the collected sample.
+Gender,male,83.53,Strongest gender signal in the collected sample.
+Budget group,100+ AED,84.85,Strongest budget group signal in the collected sample.

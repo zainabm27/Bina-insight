@@ -1,58 +1,41 @@
-from pathlib import Path
+"""
+Run the full Bina Insight pipeline.
+
+Demo:
+python run_pipeline.py --demo
+
+Upload:
+python run_pipeline.py --input path/to/file.csv
+"""
+import argparse
 import subprocess
 import sys
-
+from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 
-
-STEPS = [
-    PROJECT_ROOT / "agents" / "collector_agent.py",
-    PROJECT_ROOT / "agents" / "cleaning_agent.py",
-    PROJECT_ROOT / "agents" / "nlp_agent.py",
-    PROJECT_ROOT / "agents" / "trend_agent.py",
-    PROJECT_ROOT / "agents" / "dashboard_agent.py",
-]
-
-
-def run_step(script_path):
-
-    if not script_path.exists():
-        raise FileNotFoundError(f"Missing pipeline step: {script_path}")
-
+def run_command(args):
     print("\n" + "=" * 80)
-    print(f"Running: {script_path.name}")
+    print("Running:", " ".join(str(arg) for arg in args))
     print("=" * 80)
-
-    result = subprocess.run(
-        [sys.executable, str(script_path)],
-        cwd=PROJECT_ROOT,
-        check=True
-    )
-
-    return result.returncode
-
+    subprocess.run([sys.executable] + [str(arg) for arg in args], cwd=PROJECT_ROOT, check=True)
 
 def main():
-    print("Starting Bina Insight pipeline...")
-
-    for step in STEPS:
-        run_step(step)
-
+    parser = argparse.ArgumentParser(description="Run Bina Insight collector, cleaning, NLP, BI, and dashboard-export agents.")
+    parser.add_argument("--input", required=False, help="Optional CSV/Excel input file. If omitted, demo data is generated.")
+    parser.add_argument("--demo", action="store_true", help="Generate demo Al Qua'a data.")
+    parser.add_argument("--mode", choices=["overwrite", "append"], default="overwrite")
+    args = parser.parse_args()
+    if args.input and not args.demo:
+        run_command(["agents/collector_agent.py", "--input", args.input, "--mode", args.mode])
+    else:
+        run_command(["agents/collector_agent.py", "--demo", "--mode", args.mode])
+    run_command(["agents/cleaning_agent.py"])
+    run_command(["agents/nlp_agent.py"])
+    run_command(["agents/trend_agent.py"])
+    run_command(["agents/dashboard_agent.py"])
     print("\nPipeline complete.")
-    print()
-    print("Run the Streamlit dashboard with:")
-    print(r".venv\Scripts\python.exe -m streamlit run web\dashboard_app.py")
-    print()
-    print("Final dashboard files are in:")
-    print(r"dashboard\tableau_exports")
-    print()
-    print("Main Tableau file:")
-    print(r"dashboard\tableau_exports\main_tableau_export.csv")
-    print()
-    print("Business recommendation file:")
-    print(r"dashboard\tableau_exports\opportunity_scores.csv")
-
+    print("Run dashboard with: streamlit run dashboard/dashboard_app.py")
 
 if __name__ == "__main__":
     main()

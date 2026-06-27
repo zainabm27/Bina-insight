@@ -1,0 +1,3 @@
+gender,response_count,avg_importance,avg_frequency,avg_budget_aed,avg_sentiment,top_service_category,top_region,top_occupation,top_age_group,top_gender,top_solution_type,unique_regions,unique_occupations,unique_age_groups,unique_genders,volume_score,budget_score,need_score,payment_readiness_score,testability_score,gender_market_strength_score
+male,70,3.7142857142857144,3.0,67.42857142857143,-0.6538757142857142,Rural Transport,Al Madam,farmer,35-44,male,SMS,7,7,5,1,0.875,1.0,78.02,92.29,82.95,83.53
+female,80,4.05,2.925,51.75,-0.67155,Rural Transport,Al Madam,teacher,18-24,female,Community center,7,7,5,1,1.0,0.767478813559322,82.3,78.02,85.04,81.7

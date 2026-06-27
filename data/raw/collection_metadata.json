@@ -1,0 +1,42 @@
+{
+  "batch_id": "B20260627_081146",
+  "created_at": "2026-06-27T08:11:46",
+  "input_file": "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\dashboard_uploads\\20260627_081146_rural_community_survey_mock_data_v2.csv",
+  "archived_original_file": "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\uploaded_files\\B20260627_081146_20260627_081146_rural_community_survey_mock_data_v2.csv",
+  "output_csv": "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\raw\\responses_raw.csv",
+  "mode": "overwrite",
+  "rows_imported": 150,
+  "columns": [
+    "response_id",
+    "age_group",
+    "gender",
+    "region",
+    "occupation",
+    "source",
+    "main_problem",
+    "needed_service",
+    "service_category",
+    "importance_level",
+    "frequency_of_problem",
+    "preferred_solution_type",
+    "monthly_budget",
+    "opinion_text",
+    "date_collected",
+    "import_batch_id",
+    "imported_at",
+    "source_file_name",
+    "current_solution",
+    "satisfaction_level",
+    "would_pay",
+    "urgency_level"
+  ],
+  "mandatory_columns": [
+    "region",
+    "main_problem",
+    "needed_service",
+    "service_category",
+    "opinion_text"
+  ],
+  "missing_optional_columns_filled": [],
+  "is_synthetic": false
+}

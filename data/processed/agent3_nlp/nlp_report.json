@@ -1,0 +1,9 @@
+{
+  "agent": "Agent 3 - NLP + Market Segmentation Agent",
+  "sentiment_model": "cardiffnlp/twitter-xlm-roberta-base-sentiment",
+  "method_used": "tfidf_fallback",
+  "rows_analyzed": 150,
+  "sentiment_counts": {
+    "negative": 150
+  }
+}
