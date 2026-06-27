@@ -6,6 +6,8 @@
 
 🔗 Live Demo: https://bina-insight.streamlit.app/
 
+🎥 Video Demo: https://drive.google.com/file/d/1oDJNdxERFcZ-o7Ps4zMjJz9c_bNSotLX/view?usp=sharing
+
 **Bina Insight** is an AI-powered rural market intelligence prototype for entrepreneurs in rural UAE communities such as **Al Qua'a, Al Ain**.
 
 It helps local entrepreneurs decide what to build using evidence instead of guesswork. The system collects community demand data, cleans it, analyzes opinions with multilingual NLP / keyword sentiment logic, converts the results into business metrics, and displays recommendations in an interactive bilingual dashboard.
