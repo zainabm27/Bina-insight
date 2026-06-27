@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.jpeg" alt = "Logo" width="200">
+</p>
+
 # 🌙 Bina Insight
 
 **Bina Insight** is an AI-powered rural market intelligence prototype for entrepreneurs in rural UAE communities such as **Al Qua'a, Al Ain**.
