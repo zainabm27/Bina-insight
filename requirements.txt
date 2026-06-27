@@ -14,7 +14,7 @@ matplotlib-inline==0.2.2
 nest-asyncio2==1.7.2
 numpy==2.5.0
 packaging==26.2
-pandas==3.0.3
+pandas>=2.0
 parso==0.8.7
 pexpect==4.9.0
 platformdirs==4.10.0
@@ -31,4 +31,4 @@ tornado==6.5.7
 traitlets==5.15.1
 typing_extensions==4.15.0
 wcwidth==0.8.1
-streamlit
+streamlit>=1.45
