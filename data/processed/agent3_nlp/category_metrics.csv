@@ -1,5 +1,9 @@
 service_category,response_count,avg_importance,avg_frequency,avg_budget_aed,positive_share,negative_share,neutral_share,top_problem,top_needed_service,top_solution_type,need_score,payment_readiness_score
-Rural Transport,65,3.769230769230769,2.9846153846153847,58.23076923076923,0.6,0.4,0.0,Public transport is limited,Bus service,Community center,74.82,38.48
-Mobile Healthcare,31,4.096774193548387,2.774193548387097,65.64516129032258,0.0,1.0,0.0,Limited healthcare,Telemedicine,Website,60.48,100.0
-Connectivity,32,3.875,2.9375,53.59375,0.0,0.0,1.0,Poor internet,Internet upgrade,Community center,60.09,0.0
-Employment,22,4.0,3.1818181818181817,60.22727272727273,1.0,0.0,0.0,Few job opportunities,Job platform,Mobile app,58.27,55.04
+Tourism & Stargazing,20,3.9,3.0,388.75,1.0,0.0,0.0,Tourists ask where to camp safely and how to find local guides.,stargazing visitor information hub,volunteer-assisted form,76.1,52.12
+Veterinary & Camel Care,16,4.125,2.875,140.625,0.0,0.25,0.75,Livestock medicine is not always easy to access without travelling to Al Ain city.,livestock medicine delivery,SMS updates,71.54,0.0
+Utilities & Maintenance,15,4.133333333333334,2.8,226.66666666666666,0.0,1.0,0.0,Internet issues are repeated but hard to document clearly.,connectivity issue reporting dashboard,WhatsApp bot,69.66,18.07
+Market Access,15,4.333333333333333,2.466666666666667,230.0,0.13333333333333333,0.2,0.6666666666666666,Home-based sellers receive orders manually and lose track of demand.,WhatsApp catalog and order helper,in-person kiosk,69.12,18.77
+Education & Tutoring,12,3.9166666666666665,3.0833333333333335,616.6666666666666,0.0,0.0,1.0,Some residents need help using digital government services and online forms.,basic digital skills training,SMS updates,65.41,100.0
+Farm Operations,9,4.444444444444445,3.0,336.1111111111111,0.0,0.6666666666666666,0.3333333333333333,Farmers sometimes need equipment for short periods but cannot justify buying it.,farm equipment maintenance coordination,WhatsApp bot,65.29,41.06
+Rural Transport,7,4.285714285714286,2.857142857142857,250.0,0.0,1.0,0.0,Transport to services in Al Ain is difficult for families and workers.,scheduled rural shuttle,WhatsApp bot,60.0,22.98
+Mobile Healthcare,6,4.166666666666667,3.0,312.5,0.0,0.0,1.0,Medicine pickup from Al Ain is inconvenient.,medicine pickup and delivery,phone call service,58.5,36.11

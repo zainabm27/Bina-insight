@@ -1,31 +1,81 @@
 service_category,keyword,count
-Connectivity,internet,96
-Connectivity,poor,32
-Connectivity,upgrade,32
-Connectivity,access,32
-Connectivity,more,32
-Connectivity,reliable,32
-Employment,job,66
-Employment,opportunities,44
-Employment,few,22
-Employment,platform,22
-Employment,more,22
-Employment,local,22
-Employment,needed,22
-Mobile Healthcare,healthcare,62
-Mobile Healthcare,limited,31
-Mobile Healthcare,telemedicine,31
-Mobile Healthcare,services,31
-Mobile Healthcare,too,31
-Mobile Healthcare,far,31
-Mobile Healthcare,away,31
-Rural Transport,transport,78
-Rural Transport,delivery,78
-Rural Transport,grocery,52
-Rural Transport,public,39
-Rural Transport,limited,39
-Rural Transport,bus,39
-Rural Transport,better,39
-Rural Transport,options,39
-Rural Transport,slow,26
-Rural Transport,faster,26
+Education & Tutoring,digital,21
+Education & Tutoring,students,15
+Education & Tutoring,tutoring,15
+Education & Tutoring,residents,14
+Education & Tutoring,help,14
+Education & Tutoring,government,14
+Education & Tutoring,forms,14
+Education & Tutoring,skills,14
+Education & Tutoring,using,12
+Education & Tutoring,online,12
+Farm Operations,equipment,21
+Farm Operations,farm,15
+Farm Operations,coordination,12
+Farm Operations,irrigation,9
+Farm Operations,farms,9
+Farm Operations,maintenance,9
+Farm Operations,solar,9
+Farm Operations,repair,6
+Farm Operations,but,6
+Farm Operations,help,6
+Market Access,sellers,25
+Market Access,demand,24
+Market Access,orders,20
+Market Access,whatsapp,20
+Market Access,catalog,20
+Market Access,local,15
+Market Access,help,15
+Market Access,home,13
+Market Access,based,10
+Market Access,receive,10
+Mobile Healthcare,medicine,12
+Mobile Healthcare,pickup,12
+Mobile Healthcare,ain,8
+Mobile Healthcare,visits,6
+Mobile Healthcare,travel,6
+Mobile Healthcare,long,4
+Mobile Healthcare,residents,4
+Mobile Healthcare,mobile,4
+Mobile Healthcare,checkup,4
+Mobile Healthcare,inconvenient,4
+Rural Transport,delivery,9
+Rural Transport,ain,8
+Rural Transport,scheduled,8
+Rural Transport,shuttle,8
+Rural Transport,rural,7
+Rural Transport,remote,6
+Rural Transport,farms,6
+Rural Transport,transport,4
+Rural Transport,services,4
+Rural Transport,difficult,4
+Tourism & Stargazing,local,42
+Tourism & Stargazing,stargazing,26
+Tourism & Stargazing,visitors,18
+Tourism & Stargazing,hub,16
+Tourism & Stargazing,guides,14
+Tourism & Stargazing,visitor,14
+Tourism & Stargazing,tourism,14
+Tourism & Stargazing,camping,14
+Tourism & Stargazing,guided,12
+Tourism & Stargazing,food,12
+Utilities & Maintenance,maintenance,21
+Utilities & Maintenance,repeated,16
+Utilities & Maintenance,connectivity,16
+Utilities & Maintenance,issue,16
+Utilities & Maintenance,verified,14
+Utilities & Maintenance,directory,14
+Utilities & Maintenance,internet,8
+Utilities & Maintenance,issues,8
+Utilities & Maintenance,but,8
+Utilities & Maintenance,hard,8
+Veterinary & Camel Care,medicine,25
+Veterinary & Camel Care,camel,23
+Veterinary & Camel Care,livestock,14
+Veterinary & Camel Care,ain,14
+Veterinary & Camel Care,delivery,14
+Veterinary & Camel Care,vet,13
+Veterinary & Camel Care,farms,12
+Veterinary & Camel Care,qua'a,12
+Veterinary & Camel Care,feed,12
+Veterinary & Camel Care,help,10

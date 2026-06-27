@@ -1,12 +1,19 @@
 signal_type,signal_name,value,share,meaning
-category_demand,Rural Transport,65,0.4333,Share of responses mentioning this service category
-category_demand,Connectivity,32,0.2133,Share of responses mentioning this service category
-category_demand,Mobile Healthcare,31,0.2067,Share of responses mentioning this service category
-category_demand,Employment,22,0.1467,Share of responses mentioning this service category
-regional_demand,Al Madam,30,0.2,Share of responses from this region
-regional_demand,Al Sila,25,0.1667,Share of responses from this region
-regional_demand,Masafi,24,0.16,Share of responses from this region
-regional_demand,Delma Island,20,0.1333,Share of responses from this region
-regional_demand,Ghayathi,20,0.1333,Share of responses from this region
-regional_demand,Hatta,19,0.1267,Share of responses from this region
-regional_demand,Liwa,12,0.08,Share of responses from this region
+category_demand,Tourism & Stargazing,20,0.2,Share of responses mentioning this service category
+category_demand,Veterinary & Camel Care,16,0.16,Share of responses mentioning this service category
+category_demand,Market Access,15,0.15,Share of responses mentioning this service category
+category_demand,Utilities & Maintenance,15,0.15,Share of responses mentioning this service category
+category_demand,Education & Tutoring,12,0.12,Share of responses mentioning this service category
+category_demand,Farm Operations,9,0.09,Share of responses mentioning this service category
+category_demand,Rural Transport,7,0.07,Share of responses mentioning this service category
+category_demand,Mobile Healthcare,6,0.06,Share of responses mentioning this service category
+regional_demand,Al Qua'a,40,0.4,Share of responses from this region
+regional_demand,Al Ain outskirts,13,0.13,Share of responses from this region
+regional_demand,Al Wathba,11,0.11,Share of responses from this region
+regional_demand,Hatta,8,0.08,Share of responses from this region
+regional_demand,Liwa,7,0.07,Share of responses from this region
+regional_demand,Sweihan,7,0.07,Share of responses from this region
+regional_demand,Al Sila,6,0.06,Share of responses from this region
+regional_demand,Masfout,6,0.06,Share of responses from this region
+regional_demand,Al Madam,1,0.01,Share of responses from this region
+regional_demand,Ghayathi,1,0.01,Share of responses from this region

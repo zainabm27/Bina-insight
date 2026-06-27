@@ -1,133 +1,99 @@
 service_category,region,occupation,age_group,response_count,avg_importance,avg_frequency,avg_budget_aed,positive_share,negative_share,neutral_share,top_problem,top_needed_service,top_solution_type,need_score,payment_readiness_score
-Rural Transport,Al Madam,homemaker,18-24,2,5.0,3.5,60.0,0.5,0.5,0.0,Delivery is slow,Bus service,Community center,79.5,50.0
-Rural Transport,Masafi,student,25-34,2,5.0,3.5,40.0,0.5,0.5,0.0,Delivery is slow,Bus service,Website,79.5,33.33
-Rural Transport,Al Sila,teacher,35-44,2,4.0,4.0,37.5,1.0,0.0,0.0,Public transport is limited,Bus service,Community center,74.0,31.25
-Connectivity,Delma Island,driver,25-34,1,5.0,4.0,40.0,0.0,0.0,1.0,Poor internet,Internet upgrade,SMS,73.0,33.33
-Rural Transport,Liwa,driver,35-44,1,5.0,4.0,40.0,1.0,0.0,0.0,Public transport is limited,Bus service,Community center,73.0,33.33
-Rural Transport,Delma Island,student,25-34,1,5.0,4.0,0.0,0.0,1.0,0.0,Delivery is slow,Grocery delivery,Community center,73.0,0.0
-Rural Transport,Ghayathi,shop owner,35-44,1,5.0,4.0,40.0,0.0,1.0,0.0,Delivery is slow,Grocery delivery,SMS,73.0,33.33
-Rural Transport,Delma Island,driver,18-24,1,5.0,4.0,75.0,1.0,0.0,0.0,Public transport is limited,Bus service,Community center,73.0,62.5
-Employment,Al Madam,farmer,45-54,1,5.0,4.0,0.0,1.0,0.0,0.0,Few job opportunities,Job platform,Community center,73.0,0.0
-Connectivity,Hatta,retired,18-24,1,5.0,4.0,40.0,0.0,0.0,1.0,Poor internet,Internet upgrade,SMS,73.0,33.33
-Connectivity,Liwa,homemaker,35-44,1,5.0,4.0,120.0,0.0,0.0,1.0,Poor internet,Internet upgrade,Website,73.0,100.0
-Connectivity,Liwa,farmer,55+,1,5.0,4.0,0.0,0.0,0.0,1.0,Poor internet,Internet upgrade,Mobile app,73.0,0.0
-Mobile Healthcare,Delma Island,teacher,25-34,1,5.0,4.0,0.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,Mobile app,73.0,0.0
-Mobile Healthcare,Ghayathi,shop owner,55+,1,5.0,4.0,40.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,Website,73.0,33.33
-Mobile Healthcare,Ghayathi,retired,18-24,1,5.0,4.0,120.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,SMS,73.0,100.0
-Mobile Healthcare,Ghayathi,farmer,35-44,1,5.0,4.0,75.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,Mobile app,73.0,62.5
-Employment,Liwa,shop owner,45-54,1,5.0,4.0,40.0,1.0,0.0,0.0,Few job opportunities,Job platform,Mobile app,73.0,33.33
-Employment,Al Sila,homemaker,35-44,1,5.0,4.0,120.0,1.0,0.0,0.0,Few job opportunities,Job platform,Mobile app,73.0,100.0
-Employment,Ghayathi,teacher,18-24,1,5.0,4.0,75.0,1.0,0.0,0.0,Few job opportunities,Job platform,Mobile app,73.0,62.5
-Employment,Ghayathi,farmer,35-44,1,5.0,4.0,75.0,1.0,0.0,0.0,Few job opportunities,Job platform,Community center,73.0,62.5
-Rural Transport,Al Sila,retired,35-44,3,4.333333333333333,2.0,25.0,0.0,1.0,0.0,Delivery is slow,Grocery delivery,Mobile app,73.0,20.83
-Rural Transport,Hatta,retired,18-24,2,5.0,2.5,20.0,0.5,0.5,0.0,Delivery is slow,Bus service,SMS,72.5,16.67
-Rural Transport,Masafi,teacher,25-34,2,4.0,3.5,60.0,1.0,0.0,0.0,Public transport is limited,Bus service,Mobile app,70.5,50.0
-Rural Transport,Al Madam,farmer,35-44,2,4.0,3.5,60.0,1.0,0.0,0.0,Public transport is limited,Bus service,Community center,70.5,50.0
-Employment,Al Sila,driver,35-44,2,4.0,3.5,120.0,1.0,0.0,0.0,Few job opportunities,Job platform,SMS,70.5,100.0
-Connectivity,Hatta,teacher,18-24,2,4.0,3.5,75.0,0.0,0.0,1.0,Poor internet,Internet upgrade,Mobile app,70.5,62.5
-Mobile Healthcare,Al Madam,farmer,18-24,2,4.0,3.0,80.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,Community center,67.0,66.67
-Connectivity,Al Sila,driver,55+,2,4.0,3.0,57.5,0.0,0.0,1.0,Poor internet,Internet upgrade,Community center,67.0,47.92
-Mobile Healthcare,Masafi,farmer,18-24,1,5.0,3.0,120.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,Website,66.0,100.0
-Mobile Healthcare,Masafi,farmer,35-44,1,5.0,3.0,40.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,Community center,66.0,33.33
-Rural Transport,Al Madam,driver,18-24,1,5.0,3.0,40.0,1.0,0.0,0.0,Public transport is limited,Bus service,Mobile app,66.0,33.33
-Mobile Healthcare,Masafi,student,35-44,1,5.0,3.0,75.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,Mobile app,66.0,62.5
-Connectivity,Delma Island,student,55+,1,5.0,3.0,120.0,0.0,0.0,1.0,Poor internet,Internet upgrade,Community center,66.0,100.0
-Connectivity,Delma Island,student,25-34,1,5.0,3.0,0.0,0.0,0.0,1.0,Poor internet,Internet upgrade,Community center,66.0,0.0
-Employment,Al Sila,retired,45-54,1,5.0,3.0,75.0,1.0,0.0,0.0,Few job opportunities,Job platform,Website,66.0,62.5
-Connectivity,Masafi,student,55+,1,5.0,3.0,40.0,0.0,0.0,1.0,Poor internet,Internet upgrade,Website,66.0,33.33
-Connectivity,Hatta,shop owner,35-44,1,5.0,3.0,75.0,0.0,0.0,1.0,Poor internet,Internet upgrade,Website,66.0,62.5
-Rural Transport,Delma Island,teacher,55+,1,5.0,3.0,40.0,1.0,0.0,0.0,Public transport is limited,Bus service,Mobile app,66.0,33.33
-Rural Transport,Delma Island,farmer,18-24,1,5.0,3.0,40.0,1.0,0.0,0.0,Public transport is limited,Bus service,Mobile app,66.0,33.33
-Rural Transport,Liwa,teacher,55+,1,5.0,3.0,75.0,1.0,0.0,0.0,Public transport is limited,Bus service,SMS,66.0,62.5
-Mobile Healthcare,Hatta,shop owner,18-24,1,5.0,3.0,40.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,Website,66.0,33.33
-Mobile Healthcare,Al Madam,teacher,25-34,1,5.0,3.0,0.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,SMS,66.0,0.0
-Mobile Healthcare,Ghayathi,retired,25-34,1,5.0,3.0,120.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,Website,66.0,100.0
-Employment,Ghayathi,farmer,45-54,1,5.0,3.0,0.0,1.0,0.0,0.0,Few job opportunities,Job platform,Mobile app,66.0,0.0
-Rural Transport,Al Sila,teacher,18-24,1,5.0,3.0,120.0,1.0,0.0,0.0,Public transport is limited,Bus service,SMS,66.0,100.0
-Rural Transport,Al Sila,shop owner,45-54,1,5.0,3.0,0.0,1.0,0.0,0.0,Public transport is limited,Bus service,Community center,66.0,0.0
-Connectivity,Al Madam,retired,18-24,1,5.0,2.0,75.0,0.0,0.0,1.0,Poor internet,Internet upgrade,Mobile app,59.0,62.5
-Connectivity,Al Madam,farmer,45-54,1,5.0,2.0,120.0,0.0,0.0,1.0,Poor internet,Internet upgrade,Mobile app,59.0,100.0
-Rural Transport,Hatta,shop owner,35-44,1,5.0,2.0,75.0,0.0,1.0,0.0,Delivery is slow,Grocery delivery,Website,59.0,62.5
-Connectivity,Al Madam,retired,25-34,1,5.0,2.0,120.0,0.0,0.0,1.0,Poor internet,Internet upgrade,SMS,59.0,100.0
-Rural Transport,Al Sila,retired,55+,1,5.0,2.0,0.0,0.0,1.0,0.0,Delivery is slow,Grocery delivery,Community center,59.0,0.0
-Rural Transport,Delma Island,farmer,55+,1,5.0,2.0,75.0,1.0,0.0,0.0,Public transport is limited,Bus service,Website,59.0,62.5
-Mobile Healthcare,Al Madam,teacher,18-24,1,5.0,2.0,120.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,Community center,59.0,100.0
-Employment,Masafi,homemaker,18-24,1,5.0,2.0,40.0,1.0,0.0,0.0,Few job opportunities,Job platform,Mobile app,59.0,33.33
-Employment,Delma Island,shop owner,25-34,1,5.0,2.0,75.0,1.0,0.0,0.0,Few job opportunities,Job platform,Mobile app,59.0,62.5
-Mobile Healthcare,Ghayathi,driver,25-34,1,5.0,2.0,40.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,SMS,59.0,33.33
-Mobile Healthcare,Ghayathi,homemaker,18-24,1,5.0,2.0,75.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,Mobile app,59.0,62.5
-Mobile Healthcare,Masafi,farmer,25-34,1,5.0,2.0,75.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,SMS,59.0,62.5
-Mobile Healthcare,Masafi,homemaker,18-24,1,5.0,2.0,120.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,SMS,59.0,100.0
-Rural Transport,Al Sila,retired,45-54,1,5.0,2.0,120.0,0.0,1.0,0.0,Delivery is slow,Grocery delivery,Mobile app,59.0,100.0
-Rural Transport,Delma Island,driver,25-34,1,5.0,2.0,120.0,1.0,0.0,0.0,Public transport is limited,Bus service,SMS,59.0,100.0
-Employment,Al Madam,homemaker,45-54,1,5.0,2.0,0.0,1.0,0.0,0.0,Few job opportunities,Job platform,Mobile app,59.0,0.0
-Connectivity,Masafi,student,45-54,1,5.0,2.0,40.0,0.0,0.0,1.0,Poor internet,Internet upgrade,Community center,59.0,33.33
-Connectivity,Liwa,student,35-44,1,5.0,2.0,0.0,0.0,0.0,1.0,Poor internet,Internet upgrade,SMS,59.0,0.0
-Connectivity,Ghayathi,retired,35-44,1,5.0,2.0,120.0,0.0,0.0,1.0,Poor internet,Internet upgrade,Website,59.0,100.0
-Employment,Delma Island,homemaker,45-54,1,5.0,2.0,75.0,1.0,0.0,0.0,Few job opportunities,Job platform,SMS,59.0,62.5
-Connectivity,Delma Island,driver,35-44,1,5.0,2.0,0.0,0.0,0.0,1.0,Poor internet,Internet upgrade,Community center,59.0,0.0
-Connectivity,Al Sila,teacher,18-24,1,5.0,2.0,40.0,0.0,0.0,1.0,Poor internet,Internet upgrade,Mobile app,59.0,33.33
-Mobile Healthcare,Liwa,student,45-54,1,5.0,2.0,75.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,Website,59.0,62.5
-Rural Transport,Hatta,shop owner,45-54,1,5.0,2.0,120.0,1.0,0.0,0.0,Public transport is limited,Bus service,SMS,59.0,100.0
-Rural Transport,Ghayathi,farmer,25-34,1,5.0,2.0,120.0,1.0,0.0,0.0,Public transport is limited,Bus service,SMS,59.0,100.0
-Rural Transport,Al Sila,student,25-34,1,5.0,2.0,0.0,0.0,1.0,0.0,Delivery is slow,Grocery delivery,Community center,59.0,0.0
-Rural Transport,Al Sila,driver,18-24,1,5.0,2.0,0.0,1.0,0.0,0.0,Public transport is limited,Bus service,Website,59.0,0.0
-Rural Transport,Al Madam,driver,25-34,1,5.0,2.0,0.0,1.0,0.0,0.0,Public transport is limited,Bus service,Community center,59.0,0.0
-Mobile Healthcare,Hatta,farmer,45-54,1,5.0,2.0,75.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,Website,59.0,62.5
-Mobile Healthcare,Hatta,driver,18-24,1,5.0,2.0,75.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,Website,59.0,62.5
-Rural Transport,Masafi,teacher,35-44,2,3.0,3.0,57.5,0.5,0.5,0.0,Delivery is slow,Bus service,Community center,58.0,47.92
-Mobile Healthcare,Delma Island,retired,35-44,1,3.0,4.0,0.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,Website,55.0,0.0
-Rural Transport,Al Madam,teacher,18-24,1,3.0,4.0,40.0,0.0,1.0,0.0,Delivery is slow,Grocery delivery,SMS,55.0,33.33
-Rural Transport,Al Madam,student,25-34,1,3.0,4.0,75.0,1.0,0.0,0.0,Public transport is limited,Bus service,Website,55.0,62.5
-Rural Transport,Al Madam,homemaker,55+,1,3.0,4.0,0.0,0.0,1.0,0.0,Delivery is slow,Grocery delivery,Website,55.0,0.0
-Rural Transport,Liwa,shop owner,55+,1,3.0,4.0,0.0,1.0,0.0,0.0,Public transport is limited,Bus service,Website,55.0,0.0
-Rural Transport,Delma Island,homemaker,18-24,1,3.0,4.0,0.0,1.0,0.0,0.0,Public transport is limited,Bus service,SMS,55.0,0.0
-Rural Transport,Masafi,farmer,45-54,1,3.0,4.0,40.0,1.0,0.0,0.0,Public transport is limited,Bus service,Mobile app,55.0,33.33
-Rural Transport,Hatta,teacher,45-54,1,3.0,4.0,0.0,1.0,0.0,0.0,Public transport is limited,Bus service,Community center,55.0,0.0
-Employment,Ghayathi,student,35-44,1,3.0,4.0,40.0,1.0,0.0,0.0,Few job opportunities,Job platform,SMS,55.0,33.33
-Employment,Ghayathi,shop owner,35-44,1,3.0,4.0,120.0,1.0,0.0,0.0,Few job opportunities,Job platform,SMS,55.0,100.0
-Employment,Delma Island,student,35-44,1,3.0,4.0,120.0,1.0,0.0,0.0,Few job opportunities,Job platform,Community center,55.0,100.0
-Mobile Healthcare,Al Madam,retired,55+,1,3.0,4.0,0.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,Community center,55.0,0.0
-Connectivity,Ghayathi,homemaker,18-24,1,3.0,4.0,75.0,0.0,0.0,1.0,Poor internet,Internet upgrade,SMS,55.0,62.5
-Connectivity,Hatta,homemaker,35-44,1,3.0,4.0,40.0,0.0,0.0,1.0,Poor internet,Internet upgrade,Community center,55.0,33.33
-Employment,Hatta,shop owner,25-34,1,3.0,4.0,40.0,1.0,0.0,0.0,Few job opportunities,Job platform,Website,55.0,33.33
-Rural Transport,Al Madam,retired,55+,1,3.0,4.0,120.0,0.0,1.0,0.0,Delivery is slow,Grocery delivery,SMS,55.0,100.0
-Rural Transport,Liwa,retired,18-24,1,3.0,4.0,120.0,0.0,1.0,0.0,Delivery is slow,Grocery delivery,Community center,55.0,100.0
-Connectivity,Masafi,retired,55+,2,3.0,2.5,0.0,0.0,0.0,1.0,Poor internet,Internet upgrade,Community center,54.5,0.0
-Rural Transport,Delma Island,teacher,18-24,2,2.0,3.5,120.0,0.0,1.0,0.0,Delivery is slow,Grocery delivery,SMS,52.5,100.0
-Rural Transport,Al Madam,farmer,25-34,2,3.0,2.0,120.0,1.0,0.0,0.0,Public transport is limited,Bus service,Mobile app,51.0,100.0
-Connectivity,Al Madam,shop owner,45-54,1,3.0,3.0,40.0,0.0,0.0,1.0,Poor internet,Internet upgrade,Mobile app,48.0,33.33
-Employment,Al Sila,student,55+,1,3.0,3.0,0.0,1.0,0.0,0.0,Few job opportunities,Job platform,Community center,48.0,0.0
-Connectivity,Masafi,teacher,35-44,1,3.0,3.0,75.0,0.0,0.0,1.0,Poor internet,Internet upgrade,Website,48.0,62.5
-Mobile Healthcare,Masafi,driver,18-24,1,3.0,3.0,0.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,Website,48.0,0.0
-Rural Transport,Masafi,homemaker,45-54,1,3.0,3.0,120.0,1.0,0.0,0.0,Public transport is limited,Bus service,SMS,48.0,100.0
-Rural Transport,Ghayathi,retired,18-24,1,3.0,3.0,120.0,1.0,0.0,0.0,Public transport is limited,Bus service,SMS,48.0,100.0
-Rural Transport,Al Madam,retired,25-34,1,3.0,3.0,120.0,0.0,1.0,0.0,Delivery is slow,Grocery delivery,Website,48.0,100.0
-Rural Transport,Al Madam,driver,35-44,1,3.0,3.0,75.0,1.0,0.0,0.0,Public transport is limited,Bus service,Website,48.0,62.5
-Rural Transport,Al Sila,farmer,25-34,1,3.0,3.0,75.0,1.0,0.0,0.0,Public transport is limited,Bus service,Website,48.0,62.5
-Employment,Delma Island,farmer,18-24,1,3.0,3.0,75.0,1.0,0.0,0.0,Few job opportunities,Job platform,Mobile app,48.0,62.5
-Mobile Healthcare,Ghayathi,student,25-34,1,3.0,3.0,0.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,SMS,48.0,0.0
-Employment,Liwa,homemaker,35-44,1,3.0,3.0,0.0,1.0,0.0,0.0,Few job opportunities,Job platform,Community center,48.0,0.0
-Mobile Healthcare,Al Sila,student,25-34,1,3.0,3.0,40.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,SMS,48.0,33.33
-Rural Transport,Masafi,farmer,25-34,2,2.0,2.5,20.0,0.5,0.5,0.0,Delivery is slow,Bus service,Community center,45.5,16.67
-Connectivity,Hatta,shop owner,18-24,2,2.0,2.5,97.5,0.0,0.0,1.0,Poor internet,Internet upgrade,SMS,45.5,81.25
-Connectivity,Masafi,teacher,55+,1,3.0,2.0,0.0,0.0,0.0,1.0,Poor internet,Internet upgrade,SMS,41.0,0.0
-Employment,Masafi,homemaker,55+,1,3.0,2.0,75.0,1.0,0.0,0.0,Few job opportunities,Job platform,Community center,41.0,62.5
-Mobile Healthcare,Ghayathi,farmer,18-24,1,3.0,2.0,120.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,SMS,41.0,100.0
-Mobile Healthcare,Al Madam,shop owner,18-24,1,3.0,2.0,40.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,SMS,41.0,33.33
-Rural Transport,Liwa,teacher,45-54,1,3.0,2.0,40.0,1.0,0.0,0.0,Public transport is limited,Bus service,Community center,41.0,33.33
-Rural Transport,Al Madam,teacher,55+,1,3.0,2.0,0.0,0.0,1.0,0.0,Delivery is slow,Grocery delivery,SMS,41.0,0.0
-Rural Transport,Al Madam,homemaker,35-44,1,3.0,2.0,120.0,0.0,1.0,0.0,Delivery is slow,Grocery delivery,Community center,41.0,100.0
-Rural Transport,Al Sila,farmer,55+,1,3.0,2.0,75.0,0.0,1.0,0.0,Delivery is slow,Grocery delivery,Website,41.0,62.5
-Mobile Healthcare,Al Madam,farmer,25-34,1,3.0,2.0,120.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,Website,41.0,100.0
-Mobile Healthcare,Liwa,teacher,25-34,1,3.0,2.0,75.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,Mobile app,41.0,62.5
-Connectivity,Ghayathi,shop owner,25-34,1,1.0,4.0,75.0,0.0,0.0,1.0,Poor internet,Internet upgrade,Community center,37.0,62.5
-Connectivity,Al Sila,student,35-44,1,1.0,4.0,0.0,0.0,0.0,1.0,Poor internet,Internet upgrade,Website,37.0,0.0
-Rural Transport,Al Madam,teacher,45-54,1,1.0,4.0,0.0,1.0,0.0,0.0,Public transport is limited,Bus service,Community center,37.0,0.0
-Rural Transport,Hatta,homemaker,45-54,1,1.0,3.0,120.0,0.0,1.0,0.0,Delivery is slow,Grocery delivery,Website,30.0,100.0
-Mobile Healthcare,Al Sila,driver,35-44,1,1.0,3.0,120.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,Website,30.0,100.0
-Connectivity,Al Sila,farmer,35-44,1,1.0,3.0,0.0,0.0,0.0,1.0,Poor internet,Internet upgrade,SMS,30.0,0.0
-Rural Transport,Hatta,student,45-54,1,1.0,3.0,120.0,1.0,0.0,0.0,Public transport is limited,Bus service,SMS,30.0,100.0
-Employment,Delma Island,teacher,35-44,1,1.0,2.0,40.0,1.0,0.0,0.0,Few job opportunities,Job platform,Community center,23.0,33.33
-Mobile Healthcare,Ghayathi,teacher,35-44,1,1.0,2.0,75.0,0.0,1.0,0.0,Limited healthcare,Telemedicine,Community center,23.0,62.5
-Rural Transport,Hatta,driver,18-24,1,1.0,2.0,40.0,0.0,1.0,0.0,Delivery is slow,Grocery delivery,Mobile app,23.0,33.33
+Market Access,Al Qua'a,date farmer,45-54,2,4.5,3.5,125.0,0.0,0.0,1.0,Home-based sellers receive orders manually and lose track of demand.,WhatsApp catalog and order helper,WhatsApp bot,85.0,8.51
+Farm Operations,Al Ain outskirts,craft seller,18-24,1,5.0,4.0,750.0,0.0,1.0,0.0,Solar-powered farm equipment needs maintenance but providers are far away.,solar farm equipment repair scheduling,web dashboard,73.0,61.7
+Utilities & Maintenance,Al Qua'a,driver,45-54,1,5.0,4.0,175.0,0.0,1.0,0.0,Home maintenance providers are difficult to find quickly in remote areas.,verified mobile maintenance directory,WhatsApp bot,73.0,12.77
+Tourism & Stargazing,Al Qua'a,camel farm owner,45-54,1,5.0,4.0,1200.0,1.0,0.0,0.0,Tourists ask where to camp safely and how to find local guides.,stargazing visitor information hub,web dashboard,73.0,100.0
+Tourism & Stargazing,Al Qua'a,small grocery owner,18-24,1,5.0,4.0,175.0,1.0,0.0,0.0,Visitors come to Al Qua'a for dark skies but local tourism services are informal.,guided stargazing experience booking,WhatsApp bot,73.0,12.77
+Utilities & Maintenance,Al Qua'a,mechanic,55-64,1,5.0,4.0,375.0,0.0,1.0,0.0,Home maintenance providers are difficult to find quickly in remote areas.,verified mobile maintenance directory,web dashboard,73.0,29.79
+Veterinary & Camel Care,Al Qua'a,livestock supplier,18-24,1,5.0,4.0,75.0,0.0,0.0,1.0,Livestock medicine is not always easy to access without travelling to Al Ain city.,livestock medicine delivery,volunteer-assisted form,73.0,4.26
+Veterinary & Camel Care,Al Qua'a,teacher,55-64,1,5.0,4.0,175.0,0.0,0.0,1.0,Livestock medicine is not always easy to access without travelling to Al Ain city.,livestock medicine delivery,WhatsApp bot,73.0,12.77
+Veterinary & Camel Care,Hatta,student,18-24,1,5.0,4.0,175.0,0.0,0.0,1.0,Camel farms in Al Qua'a struggle to get fast veterinary help when an animal is sick.,same-day mobile camel vet booking,in-person kiosk,73.0,12.77
+Veterinary & Camel Care,Hatta,camel farm worker,45-54,1,5.0,4.0,175.0,0.0,0.0,1.0,Livestock medicine is not always easy to access without travelling to Al Ain city.,livestock medicine delivery,phone call service,73.0,12.77
+Mobile Healthcare,Al Wathba,teacher,35-44,1,5.0,4.0,75.0,0.0,0.0,1.0,"Clinic visits require long travel, especially for elderly residents and farm workers.",mobile health checkup visits,phone call service,73.0,4.26
+Rural Transport,Al Ain outskirts,healthcare worker,55-64,1,5.0,4.0,375.0,0.0,1.0,0.0,Delivery drivers do not consistently serve remote farms.,rural delivery network,mobile app,73.0,29.79
+Mobile Healthcare,Al Qua'a,student,65+,1,5.0,4.0,175.0,0.0,0.0,1.0,"Clinic visits require long travel, especially for elderly residents and farm workers.",mobile health checkup visits,phone call service,73.0,12.77
+Tourism & Stargazing,Al Qua'a,craft seller,65+,1,5.0,4.0,750.0,1.0,0.0,0.0,Families want to sell food and handmade products to astronomy visitors.,visitor marketplace for stargazing nights,volunteer-assisted form,73.0,61.7
+Market Access,Sweihan,livestock supplier,35-44,1,5.0,4.0,375.0,0.0,0.0,1.0,Home-based sellers receive orders manually and lose track of demand.,WhatsApp catalog and order helper,SMS updates,73.0,29.79
+Utilities & Maintenance,Al Wathba,driver,18-24,2,4.0,1.5,50.0,0.0,1.0,0.0,Home maintenance providers are difficult to find quickly in remote areas.,connectivity issue reporting dashboard,WhatsApp bot,66.5,2.13
+Market Access,Al Qua'a,livestock supplier,45-54,1,5.0,3.0,375.0,0.0,0.0,1.0,Home-based sellers receive orders manually and lose track of demand.,WhatsApp catalog and order helper,WhatsApp bot,66.0,29.79
+Education & Tutoring,Al Qua'a,craft seller,25-34,1,5.0,3.0,175.0,0.0,0.0,1.0,Some residents need help using digital government services and online forms.,basic digital skills training,SMS updates,66.0,12.77
+Rural Transport,Al Wathba,livestock supplier,18-24,1,5.0,3.0,750.0,0.0,1.0,0.0,Transport to services in Al Ain is difficult for families and workers.,scheduled rural shuttle,WhatsApp bot,66.0,61.7
+Tourism & Stargazing,Al Qua'a,home-based food seller,65+,1,5.0,3.0,25.0,1.0,0.0,0.0,Families want to sell food and handmade products to astronomy visitors.,visitor marketplace for stargazing nights,mobile app,66.0,0.0
+Education & Tutoring,Sweihan,mechanic,65+,1,5.0,3.0,1200.0,0.0,0.0,1.0,Some residents need help using digital government services and online forms.,basic digital skills training,in-person kiosk,66.0,100.0
+Education & Tutoring,Al Qua'a,student,35-44,1,5.0,3.0,375.0,0.0,0.0,1.0,Students in rural areas need tutoring but cannot always travel after school.,hybrid tutoring for rural students,mobile app,66.0,29.79
+Farm Operations,Al Sila,date farmer,35-44,1,5.0,3.0,375.0,0.0,0.0,1.0,Irrigation and water pump issues take too long to repair on remote farms.,farm equipment maintenance coordination,volunteer-assisted form,66.0,29.79
+Farm Operations,Al Ain outskirts,camel farm worker,25-34,1,5.0,3.0,1200.0,0.0,0.0,1.0,Irrigation and water pump issues take too long to repair on remote farms.,farm equipment maintenance coordination,WhatsApp bot,66.0,100.0
+Farm Operations,Liwa,home-based food seller,45-54,1,5.0,3.0,175.0,0.0,0.0,1.0,Irrigation and water pump issues take too long to repair on remote farms.,farm equipment maintenance coordination,web dashboard,66.0,12.77
+Education & Tutoring,Hatta,healthcare worker,35-44,1,5.0,3.0,750.0,0.0,0.0,1.0,Students in rural areas need tutoring but cannot always travel after school.,hybrid tutoring for rural students,in-person kiosk,66.0,61.7
+Market Access,Sweihan,camel farm worker,65+,1,5.0,3.0,175.0,0.0,0.0,1.0,Home-based sellers receive orders manually and lose track of demand.,WhatsApp catalog and order helper,mobile app,66.0,12.77
+Market Access,Al Wathba,livestock supplier,55-64,1,5.0,3.0,175.0,0.0,0.0,1.0,Home-based sellers receive orders manually and lose track of demand.,WhatsApp catalog and order helper,in-person kiosk,66.0,12.77
+Utilities & Maintenance,Al Sila,tourism guide,55-64,1,5.0,3.0,175.0,0.0,1.0,0.0,Internet issues are repeated but hard to document clearly.,connectivity issue reporting dashboard,web dashboard,66.0,12.77
+Veterinary & Camel Care,Al Ain outskirts,home-based food seller,25-34,1,5.0,3.0,75.0,0.0,1.0,0.0,Farmers cannot easily compare camel feed suppliers or veterinary costs.,camel feed and vet price comparison,WhatsApp bot,66.0,4.26
+Utilities & Maintenance,Al Qua'a,driver,55-64,1,5.0,3.0,175.0,0.0,1.0,0.0,Home maintenance providers are difficult to find quickly in remote areas.,verified mobile maintenance directory,WhatsApp bot,66.0,12.77
+Tourism & Stargazing,Hatta,home-based food seller,55-64,1,5.0,3.0,750.0,1.0,0.0,0.0,Tourists ask where to camp safely and how to find local guides.,stargazing visitor information hub,volunteer-assisted form,66.0,61.7
+Tourism & Stargazing,Al Qua'a,camel farm worker,18-24,1,5.0,3.0,375.0,1.0,0.0,0.0,Tourists ask where to camp safely and how to find local guides.,stargazing visitor information hub,in-person kiosk,66.0,29.79
+Utilities & Maintenance,Al Sila,mechanic,25-34,1,5.0,3.0,375.0,0.0,1.0,0.0,Home maintenance providers are difficult to find quickly in remote areas.,verified mobile maintenance directory,volunteer-assisted form,66.0,29.79
+Tourism & Stargazing,Al Qua'a,homemaker,45-54,1,5.0,3.0,750.0,1.0,0.0,0.0,Families want to sell food and handmade products to astronomy visitors.,visitor marketplace for stargazing nights,web dashboard,66.0,61.7
+Utilities & Maintenance,Liwa,student,25-34,1,5.0,3.0,375.0,0.0,1.0,0.0,Internet issues are repeated but hard to document clearly.,connectivity issue reporting dashboard,volunteer-assisted form,66.0,29.79
+Utilities & Maintenance,Sweihan,camel farm owner,55-64,1,5.0,3.0,25.0,0.0,1.0,0.0,Internet issues are repeated but hard to document clearly.,connectivity issue reporting dashboard,mobile app,66.0,0.0
+Tourism & Stargazing,Al Ain outskirts,tourism guide,65+,1,4.0,4.0,750.0,1.0,0.0,0.0,Visitors come to Al Qua'a for dark skies but local tourism services are informal.,guided stargazing experience booking,phone call service,64.0,61.7
+Tourism & Stargazing,Al Wathba,tourism guide,18-24,1,4.0,4.0,75.0,1.0,0.0,0.0,Tourists ask where to camp safely and how to find local guides.,stargazing visitor information hub,phone call service,64.0,4.26
+Farm Operations,Al Qua'a,tourism guide,45-54,1,4.0,4.0,25.0,0.0,1.0,0.0,Solar-powered farm equipment needs maintenance but providers are far away.,solar farm equipment repair scheduling,SMS updates,64.0,0.0
+Utilities & Maintenance,Al Qua'a,small grocery owner,55-64,1,4.0,4.0,75.0,0.0,1.0,0.0,Home maintenance providers are difficult to find quickly in remote areas.,verified mobile maintenance directory,mobile app,64.0,4.26
+Veterinary & Camel Care,Al Ain outskirts,camel farm owner,25-34,1,4.0,4.0,375.0,0.0,0.0,1.0,Camel farms in Al Qua'a struggle to get fast veterinary help when an animal is sick.,same-day mobile camel vet booking,SMS updates,64.0,29.79
+Tourism & Stargazing,Al Ain outskirts,tourism guide,35-44,1,4.0,4.0,25.0,1.0,0.0,0.0,Tourists ask where to camp safely and how to find local guides.,stargazing visitor information hub,WhatsApp bot,64.0,0.0
+Veterinary & Camel Care,Al Qua'a,healthcare worker,18-24,1,5.0,2.0,175.0,0.0,1.0,0.0,Farmers cannot easily compare camel feed suppliers or veterinary costs.,camel feed and vet price comparison,phone call service,59.0,12.77
+Tourism & Stargazing,Al Qua'a,date farmer,55-64,1,5.0,2.0,750.0,1.0,0.0,0.0,Tourists ask where to camp safely and how to find local guides.,stargazing visitor information hub,mobile app,59.0,61.7
+Mobile Healthcare,Al Qua'a,student,25-34,1,5.0,2.0,375.0,0.0,0.0,1.0,Medicine pickup from Al Ain is inconvenient.,medicine pickup and delivery,volunteer-assisted form,59.0,29.79
+Market Access,Al Ain outskirts,camel farm worker,25-34,1,5.0,2.0,25.0,1.0,0.0,0.0,Farm products are produced before sellers know what customers actually want.,local demand forecasting for farm products,WhatsApp bot,59.0,0.0
+Veterinary & Camel Care,Al Qua'a,camel farm owner,45-54,1,5.0,2.0,375.0,0.0,1.0,0.0,Farmers cannot easily compare camel feed suppliers or veterinary costs.,camel feed and vet price comparison,volunteer-assisted form,59.0,29.79
+Tourism & Stargazing,Liwa,homemaker,55-64,1,4.0,3.0,375.0,1.0,0.0,0.0,Visitors come to Al Qua'a for dark skies but local tourism services are informal.,guided stargazing experience booking,WhatsApp bot,57.0,29.79
+Veterinary & Camel Care,Al Qua'a,camel farm worker,18-24,1,4.0,3.0,25.0,0.0,1.0,0.0,Farmers cannot easily compare camel feed suppliers or veterinary costs.,camel feed and vet price comparison,web dashboard,57.0,0.0
+Education & Tutoring,Al Wathba,camel farm worker,25-34,1,4.0,3.0,750.0,0.0,0.0,1.0,Some residents need help using digital government services and online forms.,basic digital skills training,WhatsApp bot,57.0,61.7
+Education & Tutoring,Al Qua'a,mechanic,35-44,1,4.0,3.0,375.0,0.0,0.0,1.0,Students in rural areas need tutoring but cannot always travel after school.,hybrid tutoring for rural students,WhatsApp bot,57.0,29.79
+Education & Tutoring,Al Wathba,tourism guide,45-54,1,4.0,3.0,175.0,0.0,0.0,1.0,Students in rural areas need tutoring but cannot always travel after school.,hybrid tutoring for rural students,phone call service,57.0,12.77
+Education & Tutoring,Al Madam,small grocery owner,65+,1,4.0,3.0,1200.0,0.0,0.0,1.0,Students in rural areas need tutoring but cannot always travel after school.,hybrid tutoring for rural students,volunteer-assisted form,57.0,100.0
+Rural Transport,Al Wathba,healthcare worker,65+,1,4.0,3.0,25.0,0.0,1.0,0.0,Transport to services in Al Ain is difficult for families and workers.,scheduled rural shuttle,in-person kiosk,57.0,0.0
+Rural Transport,Al Qua'a,homemaker,25-34,1,4.0,3.0,25.0,0.0,1.0,0.0,Transport to services in Al Ain is difficult for families and workers.,scheduled rural shuttle,phone call service,57.0,0.0
+Market Access,Al Sila,camel farm owner,65+,1,4.0,3.0,75.0,0.0,0.0,1.0,Home-based sellers receive orders manually and lose track of demand.,WhatsApp catalog and order helper,web dashboard,57.0,4.26
+Market Access,Al Ain outskirts,small grocery owner,18-24,1,4.0,3.0,25.0,0.0,0.0,1.0,Home-based sellers receive orders manually and lose track of demand.,WhatsApp catalog and order helper,mobile app,57.0,0.0
+Farm Operations,Masfout,driver,45-54,1,4.0,3.0,75.0,0.0,1.0,0.0,Farmers sometimes need equipment for short periods but cannot justify buying it.,farm equipment rental coordination,phone call service,57.0,4.26
+Farm Operations,Masfout,homemaker,55-64,1,4.0,3.0,175.0,0.0,1.0,0.0,Farmers sometimes need equipment for short periods but cannot justify buying it.,farm equipment rental coordination,volunteer-assisted form,57.0,12.77
+Education & Tutoring,Al Qua'a,driver,45-54,1,3.0,4.0,75.0,0.0,0.0,1.0,Some residents need help using digital government services and online forms.,basic digital skills training,SMS updates,55.0,4.26
+Education & Tutoring,Al Sila,home-based food seller,25-34,1,3.0,4.0,375.0,0.0,0.0,1.0,Some residents need help using digital government services and online forms.,basic digital skills training,mobile app,55.0,29.79
+Rural Transport,Ghayathi,healthcare worker,55-64,1,3.0,4.0,25.0,0.0,1.0,0.0,Delivery drivers do not consistently serve remote farms.,rural delivery network,WhatsApp bot,55.0,0.0
+Utilities & Maintenance,Hatta,livestock supplier,25-34,1,3.0,4.0,75.0,0.0,1.0,0.0,Internet issues are repeated but hard to document clearly.,connectivity issue reporting dashboard,SMS updates,55.0,4.26
+Tourism & Stargazing,Al Ain outskirts,home-based food seller,45-54,1,3.0,4.0,175.0,1.0,0.0,0.0,Tourists ask where to camp safely and how to find local guides.,stargazing visitor information hub,SMS updates,55.0,12.77
+Market Access,Al Wathba,craft seller,55-64,1,5.0,1.0,750.0,0.0,0.0,1.0,Home-based sellers receive orders manually and lose track of demand.,WhatsApp catalog and order helper,in-person kiosk,52.0,61.7
+Farm Operations,Al Qua'a,livestock supplier,35-44,1,5.0,1.0,175.0,0.0,1.0,0.0,Solar-powered farm equipment needs maintenance but providers are far away.,solar farm equipment repair scheduling,WhatsApp bot,52.0,12.77
+Rural Transport,Liwa,small grocery owner,25-34,1,5.0,1.0,175.0,0.0,1.0,0.0,Transport to services in Al Ain is difficult for families and workers.,scheduled rural shuttle,WhatsApp bot,52.0,12.77
+Tourism & Stargazing,Al Qua'a,tourism guide,65+,1,5.0,1.0,25.0,1.0,0.0,0.0,Tourists ask where to camp safely and how to find local guides.,stargazing visitor information hub,WhatsApp bot,52.0,0.0
+Mobile Healthcare,Hatta,mechanic,65+,1,4.0,2.0,25.0,0.0,0.0,1.0,Medicine pickup from Al Ain is inconvenient.,medicine pickup and delivery,volunteer-assisted form,50.0,0.0
+Utilities & Maintenance,Al Qua'a,student,18-24,1,4.0,2.0,175.0,0.0,1.0,0.0,Internet issues are repeated but hard to document clearly.,connectivity issue reporting dashboard,in-person kiosk,50.0,12.77
+Veterinary & Camel Care,Al Qua'a,craft seller,55-64,1,4.0,2.0,25.0,0.0,0.0,1.0,Livestock medicine is not always easy to access without travelling to Al Ain city.,livestock medicine delivery,phone call service,50.0,0.0
+Market Access,Al Ain outskirts,camel farm worker,45-54,1,4.0,2.0,375.0,0.0,0.0,1.0,Home-based sellers receive orders manually and lose track of demand.,WhatsApp catalog and order helper,web dashboard,50.0,29.79
+Market Access,Sweihan,camel farm worker,25-34,1,4.0,2.0,375.0,1.0,0.0,0.0,Farm products are produced before sellers know what customers actually want.,local demand forecasting for farm products,SMS updates,50.0,29.79
+Veterinary & Camel Care,Al Qua'a,livestock supplier,35-44,1,4.0,2.0,175.0,0.0,0.0,1.0,Livestock medicine is not always easy to access without travelling to Al Ain city.,livestock medicine delivery,mobile app,50.0,12.77
+Veterinary & Camel Care,Al Ain outskirts,camel farm worker,18-24,1,4.0,2.0,75.0,0.0,0.0,1.0,Camel farms in Al Qua'a struggle to get fast veterinary help when an animal is sick.,same-day mobile camel vet booking,web dashboard,50.0,4.26
+Veterinary & Camel Care,Al Qua'a,camel farm worker,35-44,1,4.0,2.0,175.0,0.0,0.0,1.0,Livestock medicine is not always easy to access without travelling to Al Ain city.,livestock medicine delivery,SMS updates,50.0,12.77
+Rural Transport,Al Wathba,teacher,45-54,1,4.0,2.0,375.0,0.0,1.0,0.0,Delivery drivers do not consistently serve remote farms.,rural delivery network,mobile app,50.0,29.79
+Tourism & Stargazing,Liwa,date farmer,35-44,1,4.0,2.0,175.0,1.0,0.0,0.0,Visitors come to Al Qua'a for dark skies but local tourism services are informal.,guided stargazing experience booking,web dashboard,50.0,12.77
+Farm Operations,Al Qua'a,driver,25-34,1,3.0,3.0,75.0,0.0,1.0,0.0,Farmers sometimes need equipment for short periods but cannot justify buying it.,farm equipment rental coordination,phone call service,48.0,4.26
+Mobile Healthcare,Al Sila,date farmer,18-24,1,3.0,3.0,25.0,0.0,0.0,1.0,Medicine pickup from Al Ain is inconvenient.,medicine pickup and delivery,phone call service,48.0,0.0
+Tourism & Stargazing,Masfout,livestock supplier,55-64,1,3.0,3.0,175.0,1.0,0.0,0.0,Families want to sell food and handmade products to astronomy visitors.,visitor marketplace for stargazing nights,volunteer-assisted form,48.0,12.77
+Utilities & Maintenance,Sweihan,student,55-64,1,3.0,3.0,175.0,0.0,1.0,0.0,Home maintenance providers are difficult to find quickly in remote areas.,verified mobile maintenance directory,phone call service,48.0,12.77
+Mobile Healthcare,Al Qua'a,mechanic,55-64,1,3.0,3.0,1200.0,0.0,0.0,1.0,Medicine pickup from Al Ain is inconvenient.,medicine pickup and delivery,SMS updates,48.0,100.0
+Education & Tutoring,Sweihan,teacher,35-44,1,4.0,1.0,1200.0,0.0,0.0,1.0,Some residents need help using digital government services and online forms.,basic digital skills training,volunteer-assisted form,43.0,100.0
+Market Access,Al Ain outskirts,student,45-54,1,4.0,1.0,25.0,0.0,1.0,0.0,Small sellers rely on word of mouth and cannot reach buyers in Al Ain or Abu Dhabi.,"marketplace for camel milk, dates, and local products",in-person kiosk,43.0,0.0
+Tourism & Stargazing,Al Qua'a,home-based food seller,25-34,1,4.0,1.0,25.0,1.0,0.0,0.0,Families want to sell food and handmade products to astronomy visitors.,visitor marketplace for stargazing nights,volunteer-assisted form,43.0,0.0
+Veterinary & Camel Care,Masfout,camel farm worker,18-24,1,3.0,2.0,75.0,0.0,0.0,1.0,Camel farms in Al Qua'a struggle to get fast veterinary help when an animal is sick.,same-day mobile camel vet booking,SMS updates,41.0,4.26
+Market Access,Liwa,small grocery owner,35-44,1,3.0,2.0,75.0,0.0,1.0,0.0,Small sellers rely on word of mouth and cannot reach buyers in Al Ain or Abu Dhabi.,"marketplace for camel milk, dates, and local products",phone call service,41.0,4.26
+Veterinary & Camel Care,Al Qua'a,date farmer,55-64,1,3.0,2.0,25.0,0.0,0.0,1.0,Livestock medicine is not always easy to access without travelling to Al Ain city.,livestock medicine delivery,in-person kiosk,41.0,0.0
+Veterinary & Camel Care,Hatta,home-based food seller,25-34,1,1.0,4.0,75.0,0.0,0.0,1.0,Camel farms in Al Qua'a struggle to get fast veterinary help when an animal is sick.,same-day mobile camel vet booking,web dashboard,37.0,4.26
+Education & Tutoring,Masfout,healthcare worker,65+,1,1.0,4.0,750.0,0.0,0.0,1.0,Some residents need help using digital government services and online forms.,basic digital skills training,SMS updates,37.0,61.7
+Market Access,Masfout,livestock supplier,55-64,1,3.0,1.0,375.0,0.0,1.0,0.0,Small sellers rely on word of mouth and cannot reach buyers in Al Ain or Abu Dhabi.,"marketplace for camel milk, dates, and local products",phone call service,34.0,29.79
+Utilities & Maintenance,Liwa,teacher,18-24,1,3.0,1.0,375.0,0.0,1.0,0.0,Internet issues are repeated but hard to document clearly.,connectivity issue reporting dashboard,web dashboard,34.0,29.79
+Utilities & Maintenance,Hatta,date farmer,55-64,1,2.0,2.0,750.0,0.0,1.0,0.0,Internet issues are repeated but hard to document clearly.,connectivity issue reporting dashboard,WhatsApp bot,32.0,61.7
+Tourism & Stargazing,Al Qua'a,craft seller,18-24,1,1.0,3.0,75.0,1.0,0.0,0.0,Visitors come to Al Qua'a for dark skies but local tourism services are informal.,guided stargazing experience booking,phone call service,30.0,4.26
+Tourism & Stargazing,Al Qua'a,student,65+,1,1.0,3.0,750.0,1.0,0.0,0.0,Visitors come to Al Qua'a for dark skies but local tourism services are informal.,guided stargazing experience booking,mobile app,30.0,61.7
+Tourism & Stargazing,Al Qua'a,student,35-44,1,1.0,2.0,375.0,1.0,0.0,0.0,Families want to sell food and handmade products to astronomy visitors.,visitor marketplace for stargazing nights,volunteer-assisted form,23.0,29.79

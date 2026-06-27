@@ -1,23 +1,31 @@
 {
   "agent": "Agent 2 - Cleaning Agent",
-  "input_file": "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\raw\\responses_raw.csv",
-  "output_file": "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\cleaned\\responses_cleaned.csv",
-  "rows_before_cleaning": 150,
-  "rows_after_cleaning": 150,
+  "input_file": "/Users/zainab/PycharmProjects/PythonProject/Bina-insight/data/raw/responses_raw.csv",
+  "output_file": "/Users/zainab/PycharmProjects/PythonProject/Bina-insight/data/cleaned/responses_cleaned.csv",
+  "rows_before_cleaning": 100,
+  "rows_after_cleaning": 100,
   "invalid_dates_removed": 0,
   "duplicates_removed": 0,
   "empty_text_rows_removed": 0,
   "category_files_created": [
-    "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\cleaned\\categories\\connectivity.csv",
-    "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\cleaned\\categories\\employment.csv",
-    "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\cleaned\\categories\\mobile_healthcare.csv",
-    "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\cleaned\\categories\\rural_transport.csv"
+    "/Users/zainab/PycharmProjects/PythonProject/Bina-insight/data/cleaned/categories/education_tutoring.csv",
+    "/Users/zainab/PycharmProjects/PythonProject/Bina-insight/data/cleaned/categories/farm_operations.csv",
+    "/Users/zainab/PycharmProjects/PythonProject/Bina-insight/data/cleaned/categories/market_access.csv",
+    "/Users/zainab/PycharmProjects/PythonProject/Bina-insight/data/cleaned/categories/mobile_healthcare.csv",
+    "/Users/zainab/PycharmProjects/PythonProject/Bina-insight/data/cleaned/categories/rural_transport.csv",
+    "/Users/zainab/PycharmProjects/PythonProject/Bina-insight/data/cleaned/categories/tourism_stargazing.csv",
+    "/Users/zainab/PycharmProjects/PythonProject/Bina-insight/data/cleaned/categories/utilities_maintenance.csv",
+    "/Users/zainab/PycharmProjects/PythonProject/Bina-insight/data/cleaned/categories/veterinary_camel_care.csv"
   ],
   "categories": [
-    "Connectivity",
-    "Employment",
+    "Education & Tutoring",
+    "Farm Operations",
+    "Market Access",
     "Mobile Healthcare",
-    "Rural Transport"
+    "Rural Transport",
+    "Tourism & Stargazing",
+    "Utilities & Maintenance",
+    "Veterinary & Camel Care"
   ],
   "columns": [
     "response_id",

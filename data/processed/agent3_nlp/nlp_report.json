@@ -1,26 +1,26 @@
 {
   "agent": "nlp_agent",
-  "created_at": "2026-06-27T13:31:47",
-  "input_file": "data\\cleaned\\responses_cleaned.csv",
+  "created_at": "2026-06-27T16:12:45",
+  "input_file": "data/cleaned/responses_cleaned.csv",
   "outputs": {
-    "nlp_insights": "data\\processed\\agent3_nlp\\nlp_insights.csv",
-    "category_metrics": "data\\processed\\agent3_nlp\\category_metrics.csv",
-    "region_metrics": "data\\processed\\agent3_nlp\\region_metrics.csv",
-    "customer_segments": "data\\processed\\agent3_nlp\\customer_segments.csv",
-    "topic_keywords": "data\\processed\\agent3_nlp\\topic_keywords.csv",
-    "market_signals": "data\\processed\\agent3_nlp\\market_signals.csv"
+    "nlp_insights": "data/processed/agent3_nlp/nlp_insights.csv",
+    "category_metrics": "data/processed/agent3_nlp/category_metrics.csv",
+    "region_metrics": "data/processed/agent3_nlp/region_metrics.csv",
+    "customer_segments": "data/processed/agent3_nlp/customer_segments.csv",
+    "topic_keywords": "data/processed/agent3_nlp/topic_keywords.csv",
+    "market_signals": "data/processed/agent3_nlp/market_signals.csv"
   },
   "use_transformer": false,
   "analysis_mode": "keyword_fallback",
   "sentiment_mode": "keyword_fallback",
   "transformer_model": "not_loaded",
-  "rows_analyzed": 150,
-  "service_categories": 4,
-  "regions": 7,
+  "rows_analyzed": 100,
+  "service_categories": 8,
+  "regions": 10,
   "sentiment_distribution": {
-    "positive": 61,
-    "negative": 57,
-    "neutral": 32
+    "neutral": 43,
+    "negative": 35,
+    "positive": 22
   },
   "deployment_note": "Keyword fallback is the default mode and works on Streamlit Cloud with no model download. Set USE_TRANSFORMER=true in .env to enable full XLM-RoBERTa multilingual analysis locally."
 }

@@ -1,8 +1,11 @@
 region,response_count,avg_importance,avg_frequency,avg_budget_aed,positive_share,negative_share,neutral_share,top_problem,top_needed_service,top_solution_type,need_score,payment_readiness_score
-Al Madam,30,3.8,2.9,62.166666666666664,0.4,0.4666666666666667,0.13333333333333333,Public transport is limited,Bus service,Community center,74.5,48.79
-Al Sila,25,3.88,2.84,51.6,0.44,0.36,0.2,Delivery is slow,Grocery delivery,Community center,69.24,10.36
-Delma Island,20,4.1,3.1,56.75,0.55,0.25,0.2,Public transport is limited,Bus service,Community center,67.49,29.09
-Masafi,24,3.8333333333333335,2.7916666666666665,50.625,0.375,0.375,0.25,Public transport is limited,Bus service,Community center,67.38,6.82
-Ghayathi,20,4.0,3.2,76.25,0.35,0.5,0.15,Limited healthcare,Telemedicine,SMS,67.29,100.0
-Hatta,19,3.6315789473684212,2.8947368421052633,65.52631578947368,0.2631578947368421,0.3684210526315789,0.3684210526315789,Poor internet,Internet upgrade,Website,60.73,61.0
-Liwa,12,4.166666666666667,3.1666666666666665,48.75,0.5,0.25,0.25,Public transport is limited,Bus service,Community center,59.67,0.0
+Al Qua'a,40,4.225,2.9,278.75,0.3,0.3,0.4,Livestock medicine is not always easy to access without travelling to Al Ain city.,livestock medicine delivery,WhatsApp bot,78.32,21.6
+Al Ain outskirts,13,4.3076923076923075,3.076923076923077,326.9230769230769,0.3076923076923077,0.3076923076923077,0.38461538461538464,Camel farms in Al Qua'a struggle to get fast veterinary help when an animal is sick.,WhatsApp catalog and order helper,WhatsApp bot,66.46,25.7
+Al Wathba,11,4.363636363636363,2.6363636363636362,295.45454545454544,0.09090909090909091,0.45454545454545453,0.45454545454545453,Home-based sellers receive orders manually and lose track of demand.,WhatsApp catalog and order helper,WhatsApp bot,62.86,23.02
+Al Sila,6,4.166666666666667,3.1666666666666665,233.33333333333334,0.0,0.3333333333333333,0.6666666666666666,Home maintenance providers are difficult to find quickly in remote areas.,WhatsApp catalog and order helper,volunteer-assisted form,62.23,17.73
+Sweihan,7,4.428571428571429,2.7142857142857144,503.57142857142856,0.14285714285714285,0.2857142857142857,0.5714285714285714,Home-based sellers receive orders manually and lose track of demand.,WhatsApp catalog and order helper,SMS updates,61.93,40.73
+Hatta,8,3.75,3.25,346.875,0.125,0.25,0.625,Camel farms in Al Qua'a struggle to get fast veterinary help when an animal is sick.,connectivity issue reporting dashboard,in-person kiosk,60.09,27.39
+Al Madam,1,4.0,3.0,1200.0,0.0,0.0,1.0,Students in rural areas need tutoring but cannot always travel after school.,hybrid tutoring for rural students,volunteer-assisted form,57.0,100.0
+Liwa,7,4.142857142857143,2.142857142857143,246.42857142857142,0.2857142857142857,0.5714285714285714,0.14285714285714285,Internet issues are repeated but hard to document clearly.,connectivity issue reporting dashboard,web dashboard,55.36,18.84
+Ghayathi,1,3.0,4.0,25.0,0.0,1.0,0.0,Delivery drivers do not consistently serve remote farms.,rural delivery network,WhatsApp bot,55.0,0.0
+Masfout,6,3.0,2.6666666666666665,270.8333333333333,0.16666666666666666,0.5,0.3333333333333333,Farmers sometimes need equipment for short periods but cannot justify buying it.,farm equipment rental coordination,SMS updates,48.23,20.92

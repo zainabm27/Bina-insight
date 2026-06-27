@@ -1,3 +1,4 @@
 gender,response_count,avg_importance,avg_frequency,avg_budget_aed,positive_share,negative_share,neutral_share,top_problem,top_needed_service,top_solution_type,need_score,payment_readiness_score
-female,80,4.05,2.925,51.75,0.4,0.4,0.2,Public transport is limited,Bus service,Community center,76.92,0.0
-male,70,3.7142857142857144,3.0,67.42857142857143,0.4142857142857143,0.35714285714285715,0.22857142857142856,Public transport is limited,Bus service,Community center,54.43,100.0
+prefer not to say,39,4.076923076923077,2.8974358974358974,279.4871794871795,0.28205128205128205,0.3076923076923077,0.41025641025641024,Some residents need help using digital government services and online forms.,basic digital skills training,WhatsApp bot,76.97,0.0
+male,30,4.3,2.8666666666666667,357.5,0.16666666666666666,0.43333333333333335,0.4,Home maintenance providers are difficult to find quickly in remote areas.,livestock medicine delivery,WhatsApp bot,58.77,100.0
+female,31,4.032258064516129,2.838709677419355,300.0,0.1935483870967742,0.3225806451612903,0.4838709677419355,Home-based sellers receive orders manually and lose track of demand.,WhatsApp catalog and order helper,phone call service,58.38,26.29

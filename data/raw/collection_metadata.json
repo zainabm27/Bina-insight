@@ -1,11 +1,11 @@
 {
-  "batch_id": "B20260627_133145",
-  "created_at": "2026-06-27T13:31:45",
-  "input_file": "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\dashboard_uploads\\20260627_133145_rural_community_survey_mock_data_v2.csv",
-  "archived_original_file": "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\uploaded_files\\B20260627_133145_20260627_133145_rural_community_survey_mock_data_v2.csv",
-  "output_csv": "C:\\Users\\ASUS\\PycharmProjects\\PythonProject8\\data\\raw\\responses_raw.csv",
+  "batch_id": "DEMO",
+  "created_at": "2026-06-27T16:12:17",
+  "input_file": null,
+  "archived_original_file": null,
+  "output_csv": "/Users/zainab/PycharmProjects/PythonProject/Bina-insight/data/raw/responses_raw.csv",
   "mode": "overwrite",
-  "rows_imported": 150,
+  "rows_imported": 100,
   "columns": [
     "response_id",
     "age_group",
@@ -24,11 +24,7 @@
     "date_collected",
     "import_batch_id",
     "imported_at",
-    "source_file_name",
-    "current_solution",
-    "satisfaction_level",
-    "would_pay",
-    "urgency_level"
+    "source_file_name"
   ],
   "mandatory_columns": [
     "region",
@@ -38,5 +34,5 @@
     "opinion_text"
   ],
   "missing_optional_columns_filled": [],
-  "is_synthetic": false
+  "is_synthetic": true
 }
