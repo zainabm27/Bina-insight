@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.jpeg" alt = "Logo" width="200">
+  <img src="logo.jpeg" alt = "Logo" width="500" height="200">
 </p>
 
 # 🌙 Bina Insight
