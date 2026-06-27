@@ -326,7 +326,7 @@ Activate it:
 ```powershell
 .\.venv\Scripts\activate
 ```
-- On macOS/Linux:
+On macOS/Linux:
 ```bash
 source .venv/bin/activate
 ```
@@ -341,7 +341,7 @@ Copy `.env.example` into `.env`:
 ```powershell
 copy .env.example .env
 ```
-- On macOS/Linux:
+On macOS/Linux:
 ```bash
 cp .env.example .env
 ```
@@ -524,11 +524,6 @@ Arabic mode translates:
 - Source labels
 - Table column names
 - Business idea fallback text
-
-Raw uploaded survey responses are displayed as collected.
-
-```
-```
 
 ### Why No API Gateway Yet?
 
